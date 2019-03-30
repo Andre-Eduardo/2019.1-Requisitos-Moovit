@@ -25,6 +25,7 @@ Repositório da disciplina de Requisitos de Software 2019.1 sobre o Moovit
 |Twitter|Twitter icon|<img src="https://img.icons8.com/dusk/100/000000/twitter.png">|https://img.icons8.com/dusk/100/000000/twitter.png|
 |Email|Email icon|<img src="https://img.icons8.com/dusk/100/000000/secured-letter.png">|https://img.icons8.com/dusk/100/000000/secured-letter.png|
 |Google|Google icon|<img src="https://img.icons8.com/dusk/100/000000/google-logo.png">|https://img.icons8.com/dusk/100/000000/google-logo.png|
+|GitHub|Icon do GitHub|<img src="https://img.icons8.com/dusk/100/000000/github.png">|https://img.icons8.com/dusk/100/000000/github.png|
 |Web|Icon de aplicação web|<img src="https://img.icons8.com/dusk/100/000000/internet.png">|https://img.icons8.com/dusk/100/000000/internet.png|
 |App|Icone de aplicação mobile|<img src="https://img.icons8.com/dusk/100/000000/two-smartphones.png">|https://img.icons8.com/dusk/100/000000/two-smartphones.png|
 |Veículo Não Parou|Icon para reportar que o veículo no parou|<img src="https://img.icons8.com/dusk/100/000000/delete-sign.png">|https://img.icons8.com/dusk/100/000000/delete-sign.png|
@@ -33,4 +34,4 @@ Repositório da disciplina de Requisitos de Software 2019.1 sobre o Moovit
 |Avaliação do Motorista|Icon para avaliar motorista|<img src="https://img.icons8.com/dusk/100/000000/driver.png">|https://img.icons8.com/dusk/100/000000/driver.png|
 |Limpeza|Icon para avaliar limpeza dentro do metrô ou ônibus|<img src="https://img.icons8.com/dusk/100/000000/broom.png">|https://img.icons8.com/dusk/100/000000/broom.png|
 |Clima|Icon para avaliar clima dentro do metrô ou ônibus|<img src="https://img.icons8.com/wired/100/000000/temperature.png">>|https://img.icons8.com/wired/100/000000/temperature.png|
-|GitHub|Icon do GitHub|<img src="https://img.icons8.com/dusk/100/000000/github.png">|https://img.icons8.com/dusk/100/000000/github.png|
+
