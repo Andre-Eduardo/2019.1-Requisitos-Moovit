@@ -23,6 +23,7 @@ Repositório da disciplina de Requisitos de Software 2019.1 sobre o Moovit
 |Compartilhamento|Icon de compartilhamento|<img src="https://img.icons8.com/dusk/100/000000/share-2.png">|https://img.icons8.com/dusk/100/000000/share-2.png|
 |Facebook|Facebook icon|<img src="https://img.icons8.com/dusk/100/000000/facebook.png">|https://img.icons8.com/dusk/100/000000/facebook.png|
 |Twitter|Twitter icon|<img src="https://img.icons8.com/dusk/100/000000/twitter.png">|https://img.icons8.com/dusk/100/000000/twitter.png|
+|WhatsApp|WhatsApp Icon|<img src="https://img.icons8.com/dusk/100/000000/whatsapp.png">|https://img.icons8.com/dusk/100/000000/whatsapp.png|
 |Email|Email icon|<img src="https://img.icons8.com/dusk/100/000000/secured-letter.png">|https://img.icons8.com/dusk/100/000000/secured-letter.png|
 |Google|Google icon|<img src="https://img.icons8.com/dusk/100/000000/google-logo.png">|https://img.icons8.com/dusk/100/000000/google-logo.png|
 |GitHub|Icon do GitHub|<img src="https://img.icons8.com/dusk/100/000000/github.png">|https://img.icons8.com/dusk/100/000000/github.png|
