@@ -26,7 +26,7 @@ Repositório da disciplina de Requisitos de Software 2019.1 sobre o Moovit
 |Email|Email icon|<img src="https://img.icons8.com/dusk/100/000000/secured-letter.png">|https://img.icons8.com/dusk/100/000000/secured-letter.png|
 |Google|Google icon|<img src="https://img.icons8.com/dusk/100/000000/google-logo.png">|https://img.icons8.com/dusk/100/000000/google-logo.png|
 |GitHub|Icon do GitHub|<img src="https://img.icons8.com/dusk/100/000000/github.png">|https://img.icons8.com/dusk/100/000000/github.png|
-|Web|Icon de aplicação web|<img src="https://img.icons8.com/dusk/100/000000/internet.png">|https://img.icons8.com/dusk/100/000000/internet.png|
+|Web|Icon de aplicação web|<img src="https://img.icons8.com/dusk/100/000000/web.png">|https://img.icons8.com/dusk/100/000000/web.png|
 |App|Icone de aplicação mobile|<img src="https://img.icons8.com/dusk/100/000000/two-smartphones.png">|https://img.icons8.com/dusk/100/000000/two-smartphones.png|
 |Veículo Não Parou|Icon para reportar que o veículo no parou|<img src="https://img.icons8.com/dusk/100/000000/delete-sign.png">|https://img.icons8.com/dusk/100/000000/delete-sign.png|
 |Lotação|Icon para reportar a lotaço dentro do veículo|<img src="https://img.icons8.com/dusk/100/000000/groups.png">|https://img.icons8.com/dusk/100/000000/groups.png|
