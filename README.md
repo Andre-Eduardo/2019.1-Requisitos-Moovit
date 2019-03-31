@@ -11,6 +11,7 @@ Repositório da disciplina de Requisitos de Software 2019.1 sobre o Moovit
 |Metrô|Icone que representa meio de transporte sugerido pelo app|<img src="https://img.icons8.com/dusk/100/000000/train.png">|https://img.icons8.com/dusk/100/000000/train.png|
 |Bicicleta|Icone que representa meio de transporte sugerido pelo app|<img src="https://img.icons8.com/dusk/100/000000/bicycle.png">|https://img.icons8.com/dusk/100/000000/bicycle.png|
 |Caminhada|Icone que representa uma das possibilidades de chegar a um destino|<img src="https://img.icons8.com/dusk/100/000000/walking.png">|https://img.icons8.com/dusk/100/000000/walking.png|
+|Ônibus|Icone que representa meio de transporte sugerido pelo app|<img src="https://img.icons8.com/dusk/100/000000/bus.png">|https://img.icons8.com/dusk/100/000000/bus.png|
 |Relógio|Icone que representa relógio simboliza o horário das linhas dos meios de transportes em tempo real|<img src="https://img.icons8.com/dusk/100/000000/alarm-clock.png">|https://img.icons8.com/dusk/100/000000/alarm-clock.png|
 |Avisos|Icone que representa aviso para descer em paradas proximas|<img src="https://img.icons8.com/dusk/100/000000/high-priority.png">|https://img.icons8.com/dusk/100/000000/high-priority.png|
 |Mapa|Icone indica a localização no mapa|<img src="https://img.icons8.com/dusk/100/000000/map.png">|https://img.icons8.com/dusk/100/000000/map.png|
@@ -34,5 +35,5 @@ Repositório da disciplina de Requisitos de Software 2019.1 sobre o Moovit
 |Incidente|Icon para reportar acidentes|<img src="https://img.icons8.com/dusk/100/000000/siren.png">|https://img.icons8.com/dusk/100/000000/siren.png|
 |Avaliação do Motorista|Icon para avaliar motorista|<img src="https://img.icons8.com/dusk/100/000000/driver.png">|https://img.icons8.com/dusk/100/000000/driver.png|
 |Limpeza|Icon para avaliar limpeza dentro do metrô ou ônibus|<img src="https://img.icons8.com/dusk/100/000000/broom.png">|https://img.icons8.com/dusk/100/000000/broom.png|
-|Clima|Icon para avaliar clima dentro do metrô ou ônibus|<img src="https://img.icons8.com/wired/100/000000/temperature.png">>|https://img.icons8.com/wired/100/000000/temperature.png|
+|Clima|Icon para avaliar clima dentro do metrô ou ônibus|<img src="https://img.icons8.com/wired/100/000000/temperature.png">|https://img.icons8.com/wired/100/000000/temperature.png|
 
