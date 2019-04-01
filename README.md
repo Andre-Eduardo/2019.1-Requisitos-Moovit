@@ -1,7 +1,7 @@
 # 2019.1-Requisitos-Moovit
 Repositório da disciplina de Requisitos de Software 2019.1 sobre o Moovit
 
-# Padronização de símbolos para os RichPictures
+# Significado dos símbolos dos RichPictures
 
 | Significado | Descrição   |    Símbolo    |   Fonte   |
 | :---        |    :---:     |          :---: | :---      |
