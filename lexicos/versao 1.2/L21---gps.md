@@ -1,11 +1,11 @@
 |Data|Versão|Descrição|Autor|
 |:---|:---|:---|:----|
-|01/05/2019|1.0|Criação do conteúdo|Arthur Rodrigues|
+|01/05/2019|[1.0](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/lexicos/versao%201.0)|Criação do conteúdo|Arthur Rodrigues|
 
 ### ***<a name="gps">Gps</a>***
 
 
-|Versão|1.1
+|Versão|[1.1](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/lexicos/versao%201.1)
 |-|:-|
 |**Sinonimos**| Localização, posição.
 |**Noção**|O GPS é um sistema de navegação por satélite a partir de um dispositivo móvel, que envia informações sobre a posição do transporte / passageiro ou [usuário](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usuário) em qualquer horário. |

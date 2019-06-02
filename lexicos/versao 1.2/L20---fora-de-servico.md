@@ -1,11 +1,11 @@
 |Data|Versão|Descrição|Autor|
 |:---|:---|:---|:----|
-|01/05/2019|1.0|Criação do conteúdo|Arthur Rodrigues|
+|01/05/2019|[1.0](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/lexicos/versao%201.0)|Criação do conteúdo|Arthur Rodrigues|
 
 ### ***<a name="fora de servico">Fora de serviço</a>***
 
 
-|Versão|1.1
+|Versão|[1.1](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/lexicos/versao%201.1)
 |-|:-|
 |**Sinonimos**| Inoperante, danificado.
 |**Noção**|Quando um transporte está impossibilitado de rodar.<br>É avisado através do alerta dos operadores. 

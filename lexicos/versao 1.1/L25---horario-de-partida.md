@@ -1,11 +1,11 @@
 |Data|Versão|Descrição|Autor|
 |:---|:---|:---|:----|
-|01/05/2019|1.0|Criação do conteúdo|Arthur Rodrigues|
+|01/05/2019|[1.0](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/lexicos/versao%201.0)|Criação do conteúdo|Arthur Rodrigues|
 
 ### ***<a name="horario de partida">Horario de partida</a>***
 
 
-|Versão|1.1
+|Versão|[1.1](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/lexicos/versao%201.1)
 |-|:-|
 |**Sinonimos**| Ida, embarcar.
 |**Noção**|Horário previsto para sair do ponto inicial ao destino. Pode ser utilizado o horário atual ou agendar um horário. |
