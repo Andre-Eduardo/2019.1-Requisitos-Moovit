@@ -1,0 +1,20 @@
+|Data|Versão|Descrição|Autor|
+|:---|:---|:---|:---|
+|09/05/2019|1.0|Criação e adição de conteúdo|Arthur Rodrigues|
+|29/05/2019|1.1|Adição de conteúdo|Marcos Vinícius Rodrigues|
+
+
+### Cenário 12 - Mapear Uma Linha De ônibus Dentro Do Veículo
+
+|**Versão**| 1.1
+|--|:--|
+|**Objetivo**|Mostrar o processo de como o [usuário](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) pode registrar informações geográficas para atualizar o [trajeto](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L63-Trajeto) de uma [linha](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L27---linha). |
+|**Contexto**|Local = Todo o [trajeto](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L63-Trajeto) daquela [linha](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L27---linha).<br> Tempo = Quando o [veículo](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L66-Veiculo) sair da primeira [parada de ônibus](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L42---parada-de-onibus) até chegar a última.<br>Pré-condição = Estar [a bordo](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L01---a-bordo), acesso a internet. |
+|**Ator(es)**|[Usuário](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio);<br> [moovit](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/Lexicos#moovit);<br> [veículo](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L66-Veiculo). |
+|**Recursos**|[Aplicação mobile](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L03---aplica%C3%A7ao-mobile);<br>[GPS](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L21---gps) funcionando;<br> [mapa](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L18---mapa). |
+|**Episódios**|O [usuário](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) clica em mapeie sua [linha](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L27---linha)<br> Quando passar por uma [parada de ônibus](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L42---parada-de-onibus), clique no botão indicado para informar que ali existe uma [parada de ônibus](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L42---parada-de-onibus).<br>Quando terminar o [percurso](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L50---percurso) , selecione a [linha](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L27---linha) depois a [direção](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L15---dire%C3%A7%C3%A3o)<br> Envie os dados do [trajeto](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L63-Trajeto). |
+|**Exceções**|O ônibus quebrar;<br>O ônibus ser obrigado a desviar a [rota](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L58---rota), devido a acidentes ou obras na pista. |
+|**Rastreabilidade**| [StoryTelling 2](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/Storytelling#storytelling-2---intera%C3%A7%C3%A3o-de-novo-usu%C3%A1rio-com-o-sistema)
+
+|Versões Anteriores|[1.0](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/C12---mapear_linhav1.0)|
+|--|--|

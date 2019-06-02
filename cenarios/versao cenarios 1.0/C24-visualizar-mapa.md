@@ -1,0 +1,17 @@
+|Data|Versão|Descrição|Autor|
+|:---|:---|:---|:---|
+|20/04/2019|1.0|Criação e adição de conteúdo|Fabiana Ribas|
+|22/04/2019|1.1|Atualização episodio. Adição ao C&L|Fabiana Ribas|
+|28/04/2019|1.2|Adicionando link da rastreabilidade|Fabiana Ribas|
+|11/05/2019|1.3|Adição ao github|Mikhaelle Bueno|
+
+### ***<a name="Visualizar Mapa Offline">Visualizar mapa offline</a>***
+
+|**Objetivo**|Fazer download dos [mapas](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L18---mapa) ou percursos disponíveis. |
+|--|:--|
+|**Contexto**|O [usuario](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) [mobile](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L03---aplica%C3%A7ao-mobile) pode ficar sem acesso a internet e precisa realizar o download de um [mapa](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L18---mapa) ou [percurso](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L50---percurso) offline. |
+|**Ator(es)**|[usuario](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) [mobile](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L03---aplica%C3%A7ao-mobile) [transporte](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L63---transporte) [moovit](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L38---moovit) [percurso](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L50---percurso) [linha](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L27---linha) [mapa](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L18---mapa) [paradas](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L47---paradas) |
+|**Recursos**|[aplicativo](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L03---aplica%C3%A7ao-mobile) [mobile](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L03---aplica%C3%A7ao-mobile) internet |
+|**Episódios**|O [usuario](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) acessa o [aplicativo](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L03---aplica%C3%A7ao-mobile) , clica na opção [mapas](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L18---mapa) offlines, visualiza uma lista com vários [mapas](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L18---mapa) disponíveis para a região dela e clica no icone de download. O [mapa](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L18---mapa) é salvo no aparelho e pode ser acessado mesmo sem internet. |
+|**Exceções**|sistema fora do ar [usuario](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) sem internet [usuario](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) [web](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L04--Aplica%C3%A7%C3%A3o-Web) |
+<br><br>

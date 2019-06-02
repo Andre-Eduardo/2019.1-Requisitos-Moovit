@@ -1,0 +1,17 @@
+|Data|Versão|Descrição|Autor|
+|:---|:---|:---|:---|
+|20/04/2019|1.0|Criação e adição de conteúdo|Fabiana Ribas|
+|22/04/2019|1.1|Atualização episodio. Adição ao C&L|Fabiana Ribas|
+|28/04/2019|1.2|Adicionando link da rastreabilidade|Fabiana Ribas|
+|11/05/2019|1.3|Adição ao github|Mikhaelle Bueno|
+
+### ***<a name="Definir Uma Rota">Definir uma rota</a>***
+
+|**Objetivo**|Descrever o processo realizado por um [usuario](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) do [moovit](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L38---moovit) , que deseja definir uma [rota](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L58---rota) . |
+|--|:--|
+|**Contexto**|Local= em qualquer lugar<br>Tempo= a qualquer momento<br>Pré-condição= definir um local de [origem](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L40---origem) e [destino](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L14---destino) |
+|**Ator(es)**|[usuario](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) [moovit](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L38---moovit) |
+|**Recursos**|Dispositivo [aplicação web](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L04--Aplica%C3%A7%C3%A3o-Web) ou [mobile](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L03---aplica%C3%A7ao-mobile) [gps](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L21---gps) . |
+|**Episódios**|O [usuario](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) clica na barra de pesquisa "para onde você quer ir?", digita o [endereço](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L16---endere%C3%A7o) , nome do local ou pesquisa no [mapa](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L18---mapa) , seleciona uma das opções sugeridas pelo [moovit](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L38---moovit) , clica na barra de pesquisa "escolha o local de [partida](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L43---partida) ", digita o local, ou insere sua [localização atual](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L32---Localiza) , ou escolhe no [mapa](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L18---mapa) .<br>O [usuario](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) clica em "Encontrar [rotas](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L58---rota)". |
+|**Exceções**|A [localização](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L32---Localiza) fornecida pode não existir ou não constar no banco de dados.<br>O [moovit](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L38---moovit) pode não encontrar [rotas](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L58---rota) para aquela [localização](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L32---Localiza) .<br>o [usuario](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) não informar a [localização](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L32---Localiza) inicial<br>o [usuario](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) não informar o [destino](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L14---destino) |
+<br><br>

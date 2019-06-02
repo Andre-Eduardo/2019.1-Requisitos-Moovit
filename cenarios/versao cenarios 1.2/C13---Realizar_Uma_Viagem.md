@@ -1,0 +1,18 @@
+|Data|Versão|Descrição|Autor|
+|:---|:---|:---|:---|
+|20/04/2019|1.0|Criação e adição de conteúdo|Fabiana Ribas|
+|22/04/2019|1.1|Atualização episodio. Adição ao C&L|Fabiana Ribas|
+|28/04/2019|1.2|Adicionando link da rastreabilidade|Fabiana Ribas|
+|11/05/2019|1.3|Adição ao github|Mikhaelle Bueno|
+|29/05/2019|1.4|Adição de conteúdo|Marcos Vinícius Rodrigues|
+
+### ***<a name="Realizar_Uma_Viagem">Realizar uma viagem</a>***
+
+|**Objetivo**|Chegar ao [destino](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L14---destino) selecionado no [moovit](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L38---moovit) . |
+|--|:--|
+|**Contexto**|Realizar um deslocamento de um local de [partida](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L43---partida) para um [destino](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L14---destino) com a ajuda do [moovit](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L38---moovit) . |
+|**Ator(es)**|[usuario](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) , [moovit](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L38---moovit) . |
+|**Recursos**|Internet, [transporte](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L63---transporte) , dinheiro, cartão facil |
+|**Episódios**|[usuario](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) verifica no [moovit](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L38---moovit) o horário e as rotas para fazer a [viagem](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L67-Viagem) , vai para a [parada](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L41---parada) ou [estação](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L18---esta%C3%A7%C3%A3o) embarca no [transporte](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L63---transporte) realiza o pagamento, pode avaliar [viagem](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L67-Viagem) e as condições do [transporte](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L63---transporte) , solicitar o lembrete no [moovit](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L38---moovit) para [saber quando descer](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/C20-saber-descer) .Pode ser necessário trocar de [veiculo](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L66-Veiculo) para que ele chegue ao seu [destino](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L14---destino) . |
+|**Exceções**|Greve dos rodoviários/metroviários, assalto na [parada](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L41---parada) , [transporte](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L63---transporte) quebrar/inoperente, acesso a internet; [transporte](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L63---transporte) passar no horário correto |
+<br><br>

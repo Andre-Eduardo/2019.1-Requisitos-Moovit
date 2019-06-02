@@ -1,0 +1,19 @@
+|Data|Versão|Descrição|Autor|
+|:---|:---|:---|:---|
+|20/04/2019|1.0|Criação e adição de conteúdo|Fabiana Ribas|
+|22/04/2019|1.1|Atualização episodio. Adição ao C&L|Fabiana Ribas|
+|28/04/2019|1.2|Adicionando link da rastreabilidade|Fabiana Ribas|
+|11/05/2019|1.3|Adição ao github|Mikhaelle Bueno|
+|29/05/2019|1.4|Adição e correção de links |Marcos Vinícius Rodrigues|
+
+
+### ***<a name="Visualizar">Visualizar</a>***
+
+|**Objetivo**|Realizar a visualização de: [alerta dos operadores](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L02---alerta-dos-operadores) ;<br>ultimas linas do dia; [mapa](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L18---mapa) off-line;<br>estações do metrô;<br>todas as [linhas](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L30---linhas) de uma [estação](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L18---esta%C3%A7%C3%A3o) ; |
+|--|:--|
+|**Contexto**|Local = em qualquer lugar<br>Templo = a qualquer momento;<br>Pré-condição = [usuario](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) [mobile](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L03---aplica%C3%A7ao-mobile) ou [web](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L04--Aplica%C3%A7%C3%A3o-Web) |
+|**Ator(es)**|[usuario](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) ; [linha](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L27---linha) ; [estação](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L18---esta%C3%A7%C3%A3o) ; [transporte](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L63---transporte) ; [moovit](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L38---moovit) ; [alerta dos operadores](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L02---alerta-dos-operadores) ; |
+|**Recursos**|Internet; [aplicativo](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L03---aplica%C3%A7ao-mobile) [mobile](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L03---aplica%C3%A7ao-mobile) ou [web](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L04--Aplica%C3%A7%C3%A3o-Web) ; [localização](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L32---Localiza) ; [grade horária](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L22---grade-horaria) |
+|**Episódios**|O [usuario](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) pode visualizar: [visualizar alerta dos operadores](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/C22-visualizar-alerta-dos-operadores) [visualizar as ultimas linhas do dia de uma rota](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/C22-visualizar-as-ultimas-linhas-do-dia-de-uma-rota) [visualizar mapa offline](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/C22-visualizar-mapa-offline) [visualizar todas as estacoes do metro](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/C22-visualizar-todas-as-estacoes-do-metro) [visualizar todas as linhas de uma estacao](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/C22-visualizar-todas-as-linhas-de-uma-estacao) |
+|**Exceções**|sistema fora do ar; [usuario](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) sem internet; |
+<br><br>
