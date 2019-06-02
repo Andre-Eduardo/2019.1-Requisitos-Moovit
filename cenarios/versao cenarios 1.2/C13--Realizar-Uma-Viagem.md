@@ -1,7 +1,7 @@
 |Data|Versão|Descrição|Autor|
 |:---|:---|:---|:---|
-|10/05/2019|1.0|Criação e adição de conteúdo|André Eduardo|
-|29/05/2019|1.1|Adição de conteúdo|Marcos Vinícius Rodrigues|
+|10/05/2019|[1.0](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.0)|Criação e adição de conteúdo|André Eduardo|
+|29/05/2019|[1.1](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.1)|Adição de conteúdo|Marcos Vinícius Rodrigues|
 
 
 ### ***<a name="Realizar_Uma_Viagem">Realizar uma viagem</a>***

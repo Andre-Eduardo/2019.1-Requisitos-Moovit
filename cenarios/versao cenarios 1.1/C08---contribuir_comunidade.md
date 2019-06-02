@@ -1,11 +1,11 @@
 |Data|Versão|Descrição|Autor|
 |:---|:---|:---|:---|
-|09/05/2019|1.1|Criação e adição de conteúdo|Arthur Rodrigues|
-|22/05/2019|1.2|Adição de Conteúdo|Marcos Vinícius Rodrigues|
+|09/05/2019|[1.1](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.1)|Criação e adição de conteúdo|Arthur Rodrigues|
+|22/05/2019|[1.2](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.2)|Adição de Conteúdo|Marcos Vinícius Rodrigues|
 
 
 ### Cenário 08 - Contribuir com a comunidade adicionando paradas de ônibus
-|**Versão**| 1.2
+|**Versão**| [1.2](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.2)
 |--|:--|
 |**Objetivo**|Mostrar o processo de como o [usuário](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) pode melhorar a cobertura de [pontos de ônibus](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L42---parada-de-onibus) e [linhas](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L30---linhas) da cidade dele. |
 |**Contexto**|O [usuário](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) deseja adicionar uma [parada de ônibus](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L42---parada-de-onibus) que não está cadastrada no [moovit](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L38---moovit).
@@ -41,5 +41,5 @@
 
 
 
-|Versões Anteriores|[1.0](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/C08---contribuir_comunidade_v1.0) |
+|Versões Anteriores|[[1.0](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.0)](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/C08---contribuir_comunidade_v[1.0](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.0)) |
 |--|--|

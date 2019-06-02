@@ -1,13 +1,13 @@
 |Data|Versão|Descrição|Autor|
 |:---|:---|:---|:---|
-|20/04/2019|1.0|Criação e adição de conteúdo|Fabiana Ribas|
-|22/04/2019|1.1|Atualização episodio. Adição ao C&L|Fabiana Ribas|
-|28/04/2019|1.2|Adicionando link da rastreabilidade|Fabiana Ribas|
-|28/04/2019|1.3|Adição ao github|Fabiana Ribas|
-|29/05/2019|1.4|Correção de links quebrados|Marcos Vinícius Rodrigues|
+|20/04/2019|[1.0](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.0)|Criação e adição de conteúdo|Fabiana Ribas|
+|22/04/2019|[1.1](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.1)|Atualização episodio. Adição ao C&L|Fabiana Ribas|
+|28/04/2019|[1.2](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.2)|Adicionando link da rastreabilidade|Fabiana Ribas|
+|28/04/2019|[1.3](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.3)|Adição ao github|Fabiana Ribas|
+|29/05/2019|[1.4](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.4)|Correção de links quebrados|Marcos Vinícius Rodrigues|
 
 ### Cenário 15 - reportar lotação do transporte
-|Versão|1.4
+|Versão|[1.4](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.4)
 |:-|:-|
 |***Titulo***|reportar lotação do [transporte](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L63---transporte)|
 |**Objetivo***|Repassar um feedback para a [comunidade](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L12---comunidade) sobre a [lotação](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L18---lotacao) de uma determinada [linha](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L27---linha) ou [transporte](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L63---transporte).
@@ -17,7 +17,7 @@
 |***Exceção***|usuario web<br>Sistema fora do ar<br>[usuario](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) sem internet
 |***Episódios***|O [usuario](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) do [moovit]https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L38---moovit) clica para [visualizar](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/C22-visualizar) informações da [linha](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L27---linha), escolhe uma opção de adicionar reporte, escolhe a opção de [reportar](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/C15---reportar) [lotação](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L18---lotacao) e classifica a lotação entre(vazio, parcial, cheio, lotado)<br>O usuario envia e repassa seu feedback|
 
-|Versão|1.1
+|Versão|[1.1](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.1)
 |:-|:-|
 |***Titulo***|reportar lotação do [transporte](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L63---transporte)|
 |**Objetivo***|Repassar um feedback para a [comunidade](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L12---comunidade) sobre a [lotação](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L18---lotacao) de uma determinada [linha](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L27---linha) ou [transporte](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L63---transporte).
