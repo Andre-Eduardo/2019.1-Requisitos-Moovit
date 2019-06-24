@@ -1,11 +1,9 @@
 |Data|Versão|Descrição|Autor|
 |:---|:---|:---|:---|
 |09/05/2019|[1.0](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.0)|Criação e adição de conteúdo|Arthur Rodrigues|
-|09/05/2019|[1.1](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.1)|Criação e adição de conteúdo|Arthur Rodrigues|
-|29/05/2019|[1.2](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.2)|Adição de conteúdo|Marcos Vinícius Rodrigues|
 
 ### ***<a name="Receber Notificações Sobre Informações De Transporte">Cenário 14 - Receber notificações sobre informações de [transporte](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L63---transporte)</a>***
-|**Versão**| [1.2](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.2)
+|**Versão**| [1.0](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.0)
 |--|:--|
 |**Objetivo**|Informar o [usuário](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) sobre notícias relevantes relacionadas a [rotas](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L58---rota), [linhas](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L30---linhas) , trânsito e obras na cidade. |
 |**Contexto**|O [usuário](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) deseja saber os imprevistos que impactam sua na locomoção, e sobre a escala dos ônibus em dias não-úteis.

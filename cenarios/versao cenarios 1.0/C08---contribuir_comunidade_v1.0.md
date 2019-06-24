@@ -1,7 +1,6 @@
 |Data|Versão|Descrição|Autor|
 |:---|:---|:---|:----|
 |27/04/2019|[1.0](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.0)|Criação do conteúdo |Arthur Rodrigues|
-|22/05/2019|[1.4](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.4)|Adição de Conteúdo|Marcos Vinícius Rodrigues|
 
 
 ### ***<a name="Contribuir Com A Comunidade Adicionando Paradas De Onibus">Contribuir com a comunidade adicionando paradas de onibus</a>***

@@ -1,7 +1,7 @@
 |Data|Versão|Descrição|Autor|
 |:---|:---|:---|:---|
 |09/05/2019|[1.0](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.0)|Criação e adição de conteúdo|Arthur Rodrigues|
-|29/05/2019|[1.1](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.1)|Adição de conteúdo|Marcos Vinícius Rodrigues|
+
 
 
 ### Cenário 12 - Mapear Uma Linha De ônibus Dentro Do Veículo

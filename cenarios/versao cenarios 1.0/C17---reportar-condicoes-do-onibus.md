@@ -1,11 +1,10 @@
 |Data|Versão|Descrição|Autor|
 |:---|:---|:---|:---|
 |09/05/2019|[1.0](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.0)|Criação e adição de conteúdo|Matheus Toscano|
-|29/05/2019|[1.1](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.1)|Adição de conteúdo|Marcos Vinícius Rodrigues|
 
 ### Cenário 17 - reportar condicoes do onibus
 
-|Versão|[1.1](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.1)
+|Versão|[1.0](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.0)
 |:-|:-|
 |**Titulo**|reportar condicoes do onibus|
 |**Objetivo**|Repassar um feedback para a [comunidade](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L12---comunidade) sobre características inerentes a determinada [linha](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L27---linha) ou [estação](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L18---esta%C3%A7%C3%A3o) de [transporte](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L63---transporte) . |

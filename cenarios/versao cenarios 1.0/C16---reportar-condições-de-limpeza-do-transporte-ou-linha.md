@@ -1,7 +1,7 @@
 |Data|Versão|Descrição|Autor|
 |:---|:---|:---|:---|
 |09/05/2019|[1.0](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.0)|Criação e adição de conteúdo|Matheus Toscano|
-|10/05/2019|[1.1](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.1)|Revisão de conteúdo|Matheus Toscano|
+
 
 ### Cenário 16 - Reportar Condições De Limpeza Do Transporte Ou Linha
 |Versão|[1.0](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.0)

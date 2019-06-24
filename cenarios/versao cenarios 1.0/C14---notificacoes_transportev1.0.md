@@ -1,7 +1,7 @@
 |Data|Versão|Descrição|Autor|
 |:---|:---|:---|:---|
 |10/05/2019|[1.0](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.0)|Criação da página| André Eduardo|
-|10/05/2019|[1.1](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.1)|Adição de conteúdo|Arthur Rodrigues|
+
 ### ***<a name="Receber Notificações Sobre Informações De Transporte">Receber notificações sobre informações de transporte</a>***
 
 |Versão|[1.0](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.0)|

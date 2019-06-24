@@ -1,11 +1,12 @@
 |Data|Versão|Descrição|Autor|
 |:---|:---|:---|:----|
 |27/04/2019|[1.0](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.0)|Criação do conteúdo |Arthur Rodrigues|
-|22/05/2019|[1.4](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.4)|Adição de Conteúdo|Marcos Vinícius Rodrigues|
+|27/04/2019|[1.1](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.1)|Criação do conteúdo |Arthur Rodrigues|)|Criação do conteúdo |Marcos Vinicius Rodrigues|
+
 
 
 ### ***<a name="Contribuir Com A Comunidade Adicionando Paradas De Onibus">Contribuir com a comunidade adicionando paradas de onibus</a>***
-|**Versão**|[1.4](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.4)|
+|**Versão**|[1.1](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.1)|
 |--|:--|
 |**Objetivo**|Mostrar o processo de como o [usuario](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) pode melhorar a cidade dele. |
 |**Contexto**|O [usuario](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) percebe que uma [parada de onibus](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L42---parada-de-onibus) não está cadastrada no [moovit](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L38---moovit) , e decide adicionar ela ao sistema |

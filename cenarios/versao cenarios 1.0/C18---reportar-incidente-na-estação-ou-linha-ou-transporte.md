@@ -1,12 +1,11 @@
 |Data|Versão|Descrição|Autor|
 |:---|:---|:---|:---|
 |09/05/2019|[1.0](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.0)|Criação e adição de conteúdo|Matheus Toscano|
-|10/05/2019|[1.1](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.1)|Revisão de conteúdo|Matheus Toscano|
-|29/05/2019|[1.2](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.2)|Adição de conteúdo|Marcos Vinícius Rodrigues|
+
 
 ### Cenário 18 - Reportar incidente na estação ou linha ou transporte
 
-|Versão|[1.2](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.2)
+|Versão|[1.0](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.0)
 |:-|:-|
 |**Titulo**|reportar incidente na estação ou linha ou transporte|
 |**Objetivo**|Repassar um feedback para a [comunidade](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L12---comunidade) sobre algum incidente em determinada [linha](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L27---linha) ou [transporte](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L63---transporte) . |
