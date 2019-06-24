@@ -7,7 +7,7 @@
 |22/05/2019|[1.4](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.4)|Adição de conteúdo|Marcos Vinicius Rodrigues|
 
 ### Cenário 01 - Adicionar Locais Favoritos
-|Versão|[1.3](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.3)
+|Versão|[1.4](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.4)
 |:-|:-|
 |***Titulo***|adicionar locais favoritos|
 |**Objetivo***|descrever o processo para adicionar um local aos [favoritos](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L19---favoritos).|

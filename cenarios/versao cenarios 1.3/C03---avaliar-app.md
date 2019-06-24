@@ -4,10 +4,10 @@
 |22/04/2019|[1.1](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.1)|Atualização episodio. Adição ao C&L|Fabiana Ribas|
 |28/04/2019|[1.2](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.2)|Adicionando link da rastreabilidade|Fabiana Ribas|
 |28/04/2019|[1.3](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.3)|Adição ao github|Fabiana Ribas|
-|22/05/2019|[1.4](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.4)|Adição de conteúdo|Marcos Vinicius Rodrigues|
+
 
 ### Cenário 03 - Avaliar o Aplicativo.
-|Versão|[1.4](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.4)
+|Versão|[1.3](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.3)
 |:-|:-|
 |***Titulo***|avaliar o aplicativo|
 |**Objetivo***|O [usuario](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) deseja avaliar o aplicativo na loja de aplicativos|

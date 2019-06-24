@@ -4,7 +4,6 @@
 |22/04/2019|[1.1](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.1)|Atualização episodio. Adição ao C&L|Fabiana Ribas|
 |28/04/2019|[1.2](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.2)|Adicionando link da rastreabilidade|Fabiana Ribas|
 |11/05/2019|[1.3](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.3)|Adição ao github|Mikhaelle Bueno|
-|22/05/2019|[1.4](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.4)|Adição de Conteúdo|Marcos Vinicius Rodrigues|
 
 
 ### ***<a name="Consultar Grade Horaria De Uma Linha De Trasporte Especifica">Consultar grade horaria de uma linha de trasporte especifica</a>***

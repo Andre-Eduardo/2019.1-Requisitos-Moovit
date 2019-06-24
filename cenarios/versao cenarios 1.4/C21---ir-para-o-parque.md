@@ -5,7 +5,7 @@
 |29/05/2019|[1.4](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.4)|Adição e correção de links |Marcos Vinícius Rodrigues|
 
 ### Cenário 21 - ir para o parque de bicicleta
-|Versão|[1.0](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.0)
+|Versão|[1.4](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.4)
 |:-|:-|
 |***Titulo***|Ir ao parque de Bicicleta
 |**Objetivo***|Chegar no parque apenas de bicicleta|

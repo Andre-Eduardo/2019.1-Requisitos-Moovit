@@ -6,7 +6,7 @@
 |22/05/2019|[1.3](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.3)|Adição ao github|Fabiana Ribas|
 
 ### Cenário 02 - Alterar Configurações Sobre a Cidade, Região
-|Versão|[1.0](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.0)
+|Versão|[1.3](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.3)
 |:-|:-|
 |***Titulo***|alterar configurações sobre a cidade, região|
 |**Objetivo***|Mostrar o processo de alterar a localidade em que o [usuario](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/wiki/L65-Usu%C3%A1rio) está.|

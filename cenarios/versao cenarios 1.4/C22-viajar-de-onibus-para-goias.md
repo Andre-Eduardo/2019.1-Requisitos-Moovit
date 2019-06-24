@@ -5,7 +5,7 @@
 |29/05/2019|[1.4](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.4)|Adição e correção de links |Marcos Vinícius Rodrigues|
 
 ### Cenário 22 - viajar de ônibus para casa de parentes em Goiás
-|Versão|[1.0](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.0)
+|Versão|[1.4](https://github.com/Andre-Eduardo/2019.1-Requisitos-Moovit/tree/master/cenarios/versao%20cenarios%201.4)
 |:-|:-|
 |***Titulo***|Viajar de ônibus para casa de parentes em Goiás|
 |**Objetivo***|Planejar viagem que possibilite chegar na casa dos familiares em Goiás|
