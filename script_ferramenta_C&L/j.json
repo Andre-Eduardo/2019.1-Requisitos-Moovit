@@ -1,0 +1,6483 @@
+{
+   "nome": "Moovit_Lexico",
+   "cenario": [
+      {
+         "titulo": {
+            "@id": "realizar uma viagem.",
+            "#text": "Realizar Uma Viagem."
+         },
+         "objetivo": {
+            "sentenca": [
+               "Chegar ao",
+               {
+                  "@referencia_lexico": "destino",
+                  "#text": "destino"
+               },
+               "selecionado no",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               "."
+            ],
+            "PT": []
+         },
+         "contexto": {
+            "sentenca": [
+               "Realizar um deslocamento de um local de",
+               {
+                  "@referencia_lexico": "partida",
+                  "#text": "partida"
+               },
+               "para um",
+               {
+                  "@referencia_lexico": "destino",
+                  "#text": "destino"
+               },
+               "com a ajuda do",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               "."
+            ],
+            "PT": []
+         },
+         "atores": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               ",",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               "."
+            ],
+            "PT": []
+         },
+         "recursos": {
+            "sentenca": [
+               "Internet,",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               ", dinheiro, cartão facil"
+            ],
+            "PT": []
+         },
+         "episodios": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "verifica no",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               "o horário e as rotas para fazer a",
+               {
+                  "@referencia_lexico": "viagem",
+                  "#text": "viagem"
+               },
+               ", vai para a",
+               {
+                  "@referencia_lexico": "parada",
+                  "#text": "parada"
+               },
+               "ou",
+               {
+                  "@referencia_lexico": "estacao",
+                  "#text": "estação"
+               },
+               "embarca no",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               "realiza o pagamento, pode avaliar",
+               {
+                  "@referencia_lexico": "viagem",
+                  "#text": "viagem"
+               },
+               "e as condições do",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               ", solicitar o lembrete no",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               "para",
+               {
+                  "@referencia_cenario": "saber quando descer",
+                  "#text": "saber quando descer"
+               },
+               ".Pode ser necessário trocar de",
+               {
+                  "@referencia_lexico": "veiculo",
+                  "#text": "veiculo"
+               },
+               "para que ele chegue ao seu",
+               {
+                  "@referencia_lexico": "destino",
+                  "#text": "destino"
+               },
+               "."
+            ],
+            "PT": []
+         },
+         "excecao": {
+            "sentenca": [
+               "Greve dos rodoviários/metroviários, assalto na",
+               {
+                  "@referencia_lexico": "parada",
+                  "#text": "parada"
+               },
+               ",",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               "quebrar/inoperente, acesso a internet;",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               "passar no horário correto"
+            ],
+            "PT": []
+         }
+      },
+      {
+         "titulo": {
+            "@id": "reportar condicoes do onibus",
+            "#text": "Reportar Condicoes Do Onibus"
+         },
+         "objetivo": {
+            "sentenca": [
+               "Repassar um feedback para a",
+               {
+                  "@referencia_lexico": "comunidade",
+                  "#text": "comunidade"
+               },
+               "sobre características inerentes a determinada",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               "ou",
+               {
+                  "@referencia_lexico": "estacao",
+                  "#text": "estação"
+               },
+               "de",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               "."
+            ],
+            "PT": []
+         },
+         "contexto": {
+            "sentenca": [
+               "Local=",
+               {
+                  "@referencia_lexico": "a bordo",
+                  "#text": "dentro"
+               },
+               "do",
+               {
+                  "@referencia_lexico": "veiculo",
+                  "#text": "veiculo"
+               },
+               "/",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               "Tempo= enquanto o",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               "estiver ativo\nPré-condição= Usuário",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               }
+            ],
+            "PT": []
+         },
+         "atores": {
+            "sentenca": [
+               "Usuário",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               {
+                  "@referencia_lexico": "veiculo",
+                  "#text": "veiculo"
+               }
+            ],
+            "PT": []
+         },
+         "recursos": {
+            "sentenca": [
+               "Internet",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "aplicativo"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               },
+               "clima\nlimpeza",
+               {
+                  "@referencia_lexico": "trajeto",
+                  "#text": "trajeto"
+               },
+               {
+                  "@referencia_lexico": "lotacao",
+                  "#text": "lotação"
+               },
+               "incidente\nhabilidade do motorista"
+            ],
+            "PT": []
+         },
+         "episodios": {
+            "sentenca": [
+               "O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "clica para",
+               {
+                  "@referencia_cenario": "visualizar",
+                  "#text": "visualizar"
+               },
+               "informações da",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               ", escolhe uma opção de adicionar reporte , escolhe entre diversas opções qual tipo de reporte deseja informar\nO",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "repassa seu feedback"
+            ],
+            "PT": []
+         },
+         "excecao": {
+            "sentenca": [
+               "Usuário",
+               {
+                  "@referencia_lexico": "aplicacao web",
+                  "#text": "web"
+               },
+               "Sistema fora do ar\nsem internet"
+            ],
+            "PT": []
+         }
+      },
+      {
+         "titulo": {
+            "@id": "consultar grade horaria de um trasporte",
+            "#text": "Consultar Grade Horaria De Um Trasporte"
+         },
+         "objetivo": {
+            "sentenca": [
+               "descrever o processo para consultar a grande horaria de um",
+               {
+                  "@referencia_lexico": "transporte público",
+                  "#text": "transporte público"
+               }
+            ],
+            "PT": []
+         },
+         "contexto": {
+            "sentenca": [
+               "Local = em qualquer lugar; \nTempo = a qualquer tempo;\nPré-condição = acesso a",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "aplicação mobile"
+               },
+               "ou",
+               {
+                  "@referencia_lexico": "aplicacao web",
+                  "#text": "web"
+               }
+            ],
+            "PT": []
+         },
+         "atores": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               ",",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               }
+            ],
+            "PT": []
+         },
+         "recursos": {
+            "sentenca": {
+               "texto": "internet"
+            },
+            "PT": []
+         },
+         "episodios": {
+            "sentenca": [
+               "o",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "clica em direções em seguida em estações;\nO",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "tambémm tem a opção de clicar em \"",
+               {
+                  "@referencia_lexico": "linhas",
+                  "#text": "linhas"
+               },
+               "\""
+            ],
+            "PT": []
+         },
+         "excecao": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               "não constar no banco de dados ou não existir"
+            ],
+            "PT": []
+         }
+      },
+      {
+         "titulo": {
+            "@id": "reportar condicoes de limpeza do transporte ou linha",
+            "#text": "Reportar Condições De Limpeza Do Transporte Ou Linha"
+         },
+         "objetivo": {
+            "sentenca": [
+               "Repassar um feedback para a",
+               {
+                  "@referencia_lexico": "comunidade",
+                  "#text": "comunidade"
+               },
+               "sobre as condições de limpeza de uma determinada",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               "ou",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               "."
+            ],
+            "PT": []
+         },
+         "contexto": {
+            "sentenca": [
+               "Local=",
+               {
+                  "@referencia_lexico": "a bordo",
+                  "#text": "dentro"
+               },
+               "do",
+               {
+                  "@referencia_lexico": "veiculo",
+                  "#text": "veiculo"
+               },
+               "/",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               "/",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               "Tempo= enquanto o",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               "estiver rodando e a",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               "Pré-condição= Usuário",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               }
+            ],
+            "PT": []
+         },
+         "atores": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               {
+                  "@referencia_lexico": "veiculo",
+                  "#text": "veiculo"
+               },
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               }
+            ],
+            "PT": []
+         },
+         "recursos": {
+            "sentenca": [
+               "internet",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "aplicativo"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               },
+               "limpeza"
+            ],
+            "PT": []
+         },
+         "episodios": {
+            "sentenca": [
+               "O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "clica para",
+               {
+                  "@referencia_cenario": "visualizar",
+                  "#text": "visualizar"
+               },
+               "informações da",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               ", escolhe uma opção de adicionar reporte , escolhe a opção de",
+               {
+                  "@referencia_cenario": "reportar",
+                  "#text": "reportar"
+               },
+               "limpeza e classifica a limpeza entre(impecavel, limpo, sujo, imundo)\nO",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "envia e repassa seu feedback"
+            ],
+            "PT": []
+         },
+         "excecao": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "aplicacao web",
+                  "#text": "web"
+               },
+               "Sistema fora do ar",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "sem internet"
+            ],
+            "PT": []
+         }
+      },
+      {
+         "titulo": {
+            "@id": "reportar lotacao do transporte",
+            "#text": "Reportar Lotação Do Transporte"
+         },
+         "objetivo": {
+            "sentenca": [
+               "Repassar um feedback para a",
+               {
+                  "@referencia_lexico": "comunidade",
+                  "#text": "comunidade"
+               },
+               "sobre a",
+               {
+                  "@referencia_lexico": "lotacao",
+                  "#text": "lotação"
+               },
+               "de uma determinada",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               "ou",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               "."
+            ],
+            "PT": []
+         },
+         "contexto": {
+            "sentenca": [
+               "Local=",
+               {
+                  "@referencia_lexico": "a bordo",
+                  "#text": "dentro"
+               },
+               "do",
+               {
+                  "@referencia_lexico": "veiculo",
+                  "#text": "veiculo"
+               },
+               "/",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               "/",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               "Tempo= enquanto o",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               "estiver rodando e a",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               "estiver ativa\nPré-condição= Usuário",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               }
+            ],
+            "PT": []
+         },
+         "atores": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               {
+                  "@referencia_lexico": "veiculo",
+                  "#text": "veiculo"
+               },
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               }
+            ],
+            "PT": []
+         },
+         "recursos": {
+            "sentenca": [
+               "internet",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "aplicativo"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               }
+            ],
+            "PT": []
+         },
+         "episodios": {
+            "sentenca": [
+               "O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "do",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               "clica para",
+               {
+                  "@referencia_cenario": "visualizar",
+                  "#text": "visualizar"
+               },
+               "informações da",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               ", escolhe uma opção de adicionar reporte, escolhe a opção de",
+               {
+                  "@referencia_cenario": "reportar",
+                  "#text": "reportar"
+               },
+               {
+                  "@referencia_lexico": "lotacao",
+                  "#text": "lotação"
+               },
+               "e classifica a",
+               {
+                  "@referencia_lexico": "lotacao",
+                  "#text": "lotação"
+               },
+               "entre(vazio, parcial, cheio, lotado)\nO",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "envia e repassa seu feedback"
+            ],
+            "PT": []
+         },
+         "excecao": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "aplicacao web",
+                  "#text": "web"
+               },
+               "Sistema fora do ar",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "sem internet"
+            ],
+            "PT": []
+         }
+      },
+      {
+         "titulo": {
+            "@id": "reportar incidente na estacao ou linha ou transporte",
+            "#text": "Reportar Incidente Na Estação Ou Linha Ou Transporte"
+         },
+         "objetivo": {
+            "sentenca": [
+               "Repassar um feedback para a",
+               {
+                  "@referencia_lexico": "comunidade",
+                  "#text": "comunidade"
+               },
+               "sobre algum incidente em determinada",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               "ou",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               "."
+            ],
+            "PT": []
+         },
+         "contexto": {
+            "sentenca": [
+               "Local=",
+               {
+                  "@referencia_lexico": "a bordo",
+                  "#text": "dentro"
+               },
+               "ou fora do",
+               {
+                  "@referencia_lexico": "veiculo",
+                  "#text": "veiculo"
+               },
+               "/",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               "/",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               "Tempo= enquanto o",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               "e a",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               "estiver ativa\nPré-condição= Usuário",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               }
+            ],
+            "PT": []
+         },
+         "atores": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               {
+                  "@referencia_lexico": "veiculo",
+                  "#text": "veiculo"
+               },
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               {
+                  "@referencia_lexico": "estacao",
+                  "#text": "estação"
+               }
+            ],
+            "PT": []
+         },
+         "recursos": {
+            "sentenca": [
+               "internet",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "aplicativo"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               }
+            ],
+            "PT": []
+         },
+         "episodios": {
+            "sentenca": [
+               "O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "do",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               "clica para",
+               {
+                  "@referencia_cenario": "visualizar",
+                  "#text": "visualizar"
+               },
+               "informações da",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               ", escolhe uma opção de adicionar reporte, escolhe a opção de",
+               {
+                  "@referencia_cenario": "reportar",
+                  "#text": "reportar"
+               },
+               "incidente e informa quais os envolvidos no incidente(segurança, médico, incêndio, outros) e é capaz de fornecer mais detalhes.\nO",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "envia e repassa seu feedback"
+            ],
+            "PT": []
+         },
+         "excecao": {
+            "sentenca": [
+               "Exceção:",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "aplicacao web",
+                  "#text": "web"
+               },
+               "Sistema fora do ar",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "sem internet"
+            ],
+            "PT": []
+         }
+      },
+      {
+         "titulo": {
+            "@id": "consultar grade horaria de uma linha de trasporte especifica",
+            "#text": "Consultar Grade Horaria De Uma Linha De Trasporte Especifica"
+         },
+         "objetivo": {
+            "sentenca": [
+               "descrever o processo para consultar os horários refentes a uma",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               "de",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               "publico"
+            ],
+            "PT": []
+         },
+         "contexto": {
+            "sentenca": [
+               "Local = em qualquer lugar; \nTempo = a qualquer tempo;\nPré-condição = numero da",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               }
+            ],
+            "PT": []
+         },
+         "atores": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               ",",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               }
+            ],
+            "PT": []
+         },
+         "recursos": {
+            "sentenca": [
+               "internet, acesso a aplicação",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               }
+            ],
+            "PT": []
+         },
+         "episodios": {
+            "sentenca": [
+               "O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "clica no botão \"",
+               {
+                  "@referencia_lexico": "linhas",
+                  "#text": "linhas"
+               },
+               "\" e pesquisa uma",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               ". Em seguida seleciona uma opção de",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               "e clica no no link \"Grade Horaria Completa\" para obter a grade."
+            ],
+            "PT": []
+         },
+         "excecao": {
+            "sentenca": [
+               "o Usuário não possuir o numero de identificação da",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               "."
+            ],
+            "PT": []
+         }
+      },
+      {
+         "titulo": {
+            "@id": "consultar grade horaria dos trasportes de uma estacao",
+            "#text": "Consultar Grade Horaria Dos Trasportes De Uma Estaçao"
+         },
+         "objetivo": {
+            "sentenca": [
+               "descrever o processo para consultar os horários de um",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               "que passam por uma",
+               {
+                  "@referencia_lexico": "estacao",
+                  "#text": "estação"
+               }
+            ],
+            "PT": []
+         },
+         "contexto": {
+            "sentenca": [
+               "Local = em qualquer lugar; \nTempo = a qualquer tempo;\nPré-condição = acesso a",
+               {
+                  "@referencia_lexico": "aplicacao web",
+                  "#text": "aplicação web"
+               },
+               "ou",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               }
+            ],
+            "PT": []
+         },
+         "atores": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               ",",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               }
+            ],
+            "PT": []
+         },
+         "recursos": {
+            "sentenca": [
+               "internet\nacesso a aplicação",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               }
+            ],
+            "PT": []
+         },
+         "episodios": {
+            "sentenca": [
+               "O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "clica no botão \"estações\", localiza a",
+               {
+                  "@referencia_lexico": "estacao",
+                  "#text": "estação"
+               },
+               "desejada no",
+               {
+                  "@referencia_lexico": "mapa",
+                  "#text": "mapa"
+               },
+               "e seleciona a",
+               {
+                  "@referencia_lexico": "estacao",
+                  "#text": "estação"
+               },
+               ".\nO",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "seleciona uma das",
+               {
+                  "@referencia_lexico": "linhas",
+                  "#text": "linhas"
+               },
+               "de",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               "que passam pela",
+               {
+                  "@referencia_lexico": "estacao",
+                  "#text": "estação"
+               },
+               "e clica no link \"Grade Horaria Completa\" para obter a grade completa."
+            ],
+            "PT": []
+         },
+         "excecao": {
+            "sentenca": [
+               "o",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "nao localizar a",
+               {
+                  "@referencia_lexico": "estacao",
+                  "#text": "estação"
+               },
+               "desejada"
+            ],
+            "PT": []
+         }
+      },
+      {
+         "titulo": {
+            "@id": "visualizar todas as linhas de uma estacao",
+            "#text": "Visualizar Todas As Linhas De Uma Estação"
+         },
+         "objetivo": {
+            "sentenca": [
+               "encontrar",
+               {
+                  "@referencia_lexico": "linhas",
+                  "#text": "linhas"
+               },
+               "de",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               "disponíveis em estações de interesse do",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               }
+            ],
+            "PT": []
+         },
+         "contexto": {
+            "sentenca": [
+               "Local = em qualquer lugar\nTempo = a qualquer momento\nPré-condição =",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               },
+               "ou",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "aplicacao web",
+                  "#text": "web"
+               }
+            ],
+            "PT": []
+         },
+         "atores": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               {
+                  "@referencia_lexico": "estacao",
+                  "#text": "estação"
+               },
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               }
+            ],
+            "PT": []
+         },
+         "recursos": {
+            "sentenca": [
+               "internet",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "aplicativo"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               },
+               "ou",
+               {
+                  "@referencia_lexico": "aplicacao web",
+                  "#text": "web"
+               },
+               {
+                  "@referencia_lexico": "gps",
+                  "#text": "gps"
+               },
+               "ligado",
+               {
+                  "@referencia_lexico": "grade horaria",
+                  "#text": "grade horária"
+               }
+            ],
+            "PT": []
+         },
+         "episodios": {
+            "sentenca": [
+               "O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "clica no menu de \"estações\" clica no botão \"",
+               {
+                  "@referencia_cenario": "visualizar",
+                  "#text": "visualizar"
+               },
+               "todas as",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               "desta",
+               {
+                  "@referencia_lexico": "estacao",
+                  "#text": "estação"
+               },
+               "\" e recebe uma lista de todas as",
+               {
+                  "@referencia_lexico": "linhas",
+                  "#text": "linhas"
+               },
+               "que partem e chegam na",
+               {
+                  "@referencia_lexico": "estacao",
+                  "#text": "estação"
+               },
+               "."
+            ],
+            "PT": []
+         },
+         "excecao": {
+            "sentenca": [
+               "sistema fora do ar",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "sem internet"
+            ],
+            "PT": []
+         }
+      },
+      {
+         "titulo": {
+            "@id": "definir uma rota rota",
+            "#text": "Definir Uma Rota Rota"
+         },
+         "objetivo": {
+            "sentenca": [
+               "Descrever o processo realizado por um",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "do",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               ", que deseja definir uma",
+               {
+                  "@referencia_lexico": "rota",
+                  "#text": "rota"
+               },
+               "."
+            ],
+            "PT": []
+         },
+         "contexto": {
+            "sentenca": [
+               "Local= em qualquer lugar\nTempo= a qualquer momento\nPré-condição= definir um local de",
+               {
+                  "@referencia_lexico": "origem",
+                  "#text": "origem"
+               },
+               "e",
+               {
+                  "@referencia_lexico": "destino",
+                  "#text": "destino"
+               }
+            ],
+            "PT": []
+         },
+         "atores": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               }
+            ],
+            "PT": []
+         },
+         "recursos": {
+            "sentenca": [
+               "Dispositivo",
+               {
+                  "@referencia_lexico": "aplicacao web",
+                  "#text": "aplicação web"
+               },
+               "ou",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               },
+               {
+                  "@referencia_lexico": "gps",
+                  "#text": "gps"
+               },
+               "."
+            ],
+            "PT": []
+         },
+         "episodios": {
+            "sentenca": [
+               "O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "clica na barra de pesquisa \"para onde você quer ir?\", digita o",
+               {
+                  "@referencia_lexico": "endereco",
+                  "#text": "endereço"
+               },
+               ", nome do local ou pesquisa no",
+               {
+                  "@referencia_lexico": "mapa",
+                  "#text": "mapa"
+               },
+               ", seleciona uma das opções sugeridas pelo",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               ", clica na barra de pesquisa \"escolha o local de",
+               {
+                  "@referencia_lexico": "partida",
+                  "#text": "partida"
+               },
+               "\", digita o local, ou insere sua",
+               {
+                  "@referencia_lexico": "localizacao atual",
+                  "#text": "localização atual"
+               },
+               ", ou escolhe no",
+               {
+                  "@referencia_lexico": "mapa",
+                  "#text": "mapa"
+               },
+               ".\nO",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "clica em \"Encontrar rotas\"."
+            ],
+            "PT": []
+         },
+         "excecao": {
+            "sentenca": [
+               "A",
+               {
+                  "@referencia_lexico": "localizacao atual",
+                  "#text": "localização"
+               },
+               "fornecida pode não existir ou não constar no banco de dados.\nO",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               "pode não encontrar rotas para aquela",
+               {
+                  "@referencia_lexico": "localizacao atual",
+                  "#text": "localização"
+               },
+               ".\no",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "não informar a",
+               {
+                  "@referencia_lexico": "localizacao atual",
+                  "#text": "localização"
+               },
+               "inicial\no",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "não informar o",
+               {
+                  "@referencia_lexico": "destino",
+                  "#text": "destino"
+               }
+            ],
+            "PT": []
+         }
+      },
+      {
+         "titulo": {
+            "@id": "saber quando descer",
+            "#text": "Saber Quando Descer"
+         },
+         "objetivo": {
+            "sentenca": [
+               "Informar ao",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "a onde e  quando descer ou parar"
+            ],
+            "PT": []
+         },
+         "contexto": {
+            "sentenca": [
+               "Local=",
+               {
+                  "@referencia_lexico": "a bordo",
+                  "#text": "dentro"
+               },
+               "do",
+               {
+                  "@referencia_lexico": "veiculo",
+                  "#text": "veiculo"
+               },
+               "/",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               "/",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               "Tempo= enquanto o",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               "estiver próximo ao",
+               {
+                  "@referencia_lexico": "destino",
+                  "#text": "destino"
+               },
+               "Pré-condição= Usuário",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               }
+            ],
+            "PT": []
+         },
+         "atores": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               {
+                  "@referencia_lexico": "estacao",
+                  "#text": "estação"
+               },
+               {
+                  "@referencia_lexico": "parada",
+                  "#text": "parada"
+               }
+            ],
+            "PT": []
+         },
+         "recursos": {
+            "sentenca": [
+               "internet",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "aplicativo"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               },
+               {
+                  "@referencia_lexico": "origem",
+                  "#text": "origem"
+               },
+               {
+                  "@referencia_lexico": "destino",
+                  "#text": "destino"
+               }
+            ],
+            "PT": []
+         },
+         "episodios": {
+            "sentenca": [
+               "O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "define um",
+               {
+                  "@referencia_lexico": "destino",
+                  "#text": "destino"
+               },
+               "e escolhe uma",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               ". O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "clica no botão Saiba quando descer e o seu",
+               {
+                  "@referencia_lexico": "percurso",
+                  "#text": "percurso"
+               },
+               "é acompanhado pelo",
+               {
+                  "@referencia_lexico": "gps",
+                  "#text": "gps"
+               },
+               "até seu",
+               {
+                  "@referencia_lexico": "destino",
+                  "#text": "destino"
+               },
+               "final. O aviso é disponibilizado uma",
+               {
+                  "@referencia_lexico": "parada",
+                  "#text": "parada"
+               },
+               "antes da",
+               {
+                  "@referencia_lexico": "parada",
+                  "#text": "parada"
+               },
+               "final do",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "."
+            ],
+            "PT": []
+         },
+         "excecao": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "aplicacao web",
+                  "#text": "web"
+               },
+               "Sistema fora do ar",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "sem internet",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "sem",
+               {
+                  "@referencia_lexico": "parada",
+                  "#text": "parada"
+               },
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "sem",
+               {
+                  "@referencia_lexico": "destino",
+                  "#text": "destino"
+               }
+            ],
+            "PT": []
+         }
+      },
+      {
+         "titulo": {
+            "@id": "contribuir com a comunidade adicionando paradas de onibus",
+            "#text": "Contribuir Com A Comunidade Adicionando Paradas De Onibus"
+         },
+         "objetivo": {
+            "sentenca": [
+               "Mostrar o processo de como o",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "pode melhorar a cidade dele."
+            ],
+            "PT": []
+         },
+         "contexto": {
+            "sentenca": [
+               "O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "percebe que uma",
+               {
+                  "@referencia_lexico": "parada de onibus",
+                  "#text": "parada de onibus"
+               },
+               "não está cadastrada no",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               ", e decide adicionar ela ao sistema"
+            ],
+            "PT": []
+         },
+         "atores": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               {
+                  "@referencia_lexico": "comunidade",
+                  "#text": "comunidade"
+               }
+            ],
+            "PT": []
+         },
+         "recursos": {
+            "sentenca": [
+               "Cadastro no",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               "Acesso a internet"
+            ],
+            "PT": []
+         },
+         "episodios": {
+            "sentenca": [
+               "O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "clica em Melhore sua cidade;\nO",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "cria uma conta e confirma o seu e-mail, caso não for cadastrado;\nO",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "clica em Atualize o seu primeiro",
+               {
+                  "@referencia_lexico": "parada",
+                  "#text": "ponto"
+               },
+               ", e clica em ‘+’ para adicionar uma",
+               {
+                  "@referencia_lexico": "parada",
+                  "#text": "parada"
+               },
+               "de ônibus"
+            ],
+            "PT": []
+         },
+         "excecao": {
+            "sentenca": [
+               "Sistema fora do ar\nNão carregar o",
+               {
+                  "@referencia_lexico": "mapa",
+                  "#text": "mapa"
+               },
+               "para ativar o botão de adicionar",
+               {
+                  "@referencia_lexico": "parada de onibus",
+                  "#text": "parada de onibus"
+               },
+               "O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "precisa de autenticação se não for cadastrado"
+            ],
+            "PT": []
+         }
+      },
+      {
+         "titulo": {
+            "@id": "adicionar locais favoritos",
+            "#text": "Adicionar Locais Favoritos"
+         },
+         "objetivo": {
+            "sentenca": [
+               "descrever o processo para adicionar um local aos",
+               {
+                  "@referencia_lexico": "favoritos",
+                  "#text": "favoritos"
+               }
+            ],
+            "PT": []
+         },
+         "contexto": {
+            "sentenca": [
+               "Local= em qualquer lugar\nTempo= a qualquer momento\nPré-condição= definir uma",
+               {
+                  "@referencia_lexico": "localizacao atual",
+                  "#text": "localização"
+               },
+               "como sendo favorita"
+            ],
+            "PT": []
+         },
+         "atores": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               }
+            ],
+            "PT": []
+         },
+         "recursos": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "gps",
+                  "#text": "gps"
+               },
+               "internet\nacesso a",
+               {
+                  "@referencia_lexico": "aplicacao web",
+                  "#text": "aplicação web"
+               },
+               "ou",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               }
+            ],
+            "PT": []
+         },
+         "episodios": {
+            "sentenca": [
+               "clicar em \"Adicionar\" no campo favorito;\nDigitar o local na barra de pesquisa ou,\nescolher a",
+               {
+                  "@referencia_lexico": "localizacao atual",
+                  "#text": "localização atual"
+               },
+               "ou,\nescolher no",
+               {
+                  "@referencia_lexico": "mapa",
+                  "#text": "mapa"
+               },
+               ";\nclicar em \"Salvar\""
+            ],
+            "PT": []
+         },
+         "excecao": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "sem internet.",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "não encontrar",
+               {
+                  "@referencia_lexico": "localizacao atual",
+                  "#text": "localização"
+               },
+               "desejada"
+            ],
+            "PT": []
+         }
+      },
+      {
+         "titulo": {
+            "@id": "visualizar todas as estacoes do metro",
+            "#text": "Visualizar Todas As Estações Do Metrô"
+         },
+         "objetivo": {
+            "sentenca": [
+               "Fazer com que o",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "tenha acesso a todas as estações de",
+               {
+                  "@referencia_lexico": "parada",
+                  "#text": "parada"
+               },
+               "do metrô"
+            ],
+            "PT": []
+         },
+         "contexto": {
+            "sentenca": [
+               "Local = em qualquer lugar\nTempo = a qualquer momento\nPré-condição =",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               }
+            ],
+            "PT": []
+         },
+         "atores": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "parada",
+                  "#text": "parada"
+               },
+               {
+                  "@referencia_lexico": "estacao",
+                  "#text": "estação"
+               }
+            ],
+            "PT": []
+         },
+         "recursos": {
+            "sentenca": [
+               "internet",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "aplicativo"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               },
+               {
+                  "@referencia_lexico": "localizacao atual",
+                  "#text": "localização"
+               }
+            ],
+            "PT": []
+         },
+         "episodios": {
+            "sentenca": [
+               "O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "clica no menu de \"",
+               {
+                  "@referencia_lexico": "linhas",
+                  "#text": "linhas"
+               },
+               "\" clica na",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               "desejada e recebe uma lista de todas as estações onde a",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               "do metrô para."
+            ],
+            "PT": []
+         },
+         "excecao": {
+            "sentenca": [
+               "sistema fora do ar",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "sem internet"
+            ],
+            "PT": []
+         }
+      },
+      {
+         "titulo": {
+            "@id": "visualizar mapa offline",
+            "#text": "Visualizar Mapa Offline"
+         },
+         "objetivo": {
+            "sentenca": [
+               "Fazer download dos",
+               {
+                  "@referencia_lexico": "mapa",
+                  "#text": "mapas"
+               },
+               "ou percursos disponíveis."
+            ],
+            "PT": []
+         },
+         "contexto": {
+            "sentenca": [
+               "O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               },
+               "pode ficar sem acesso a internet e precisa realizar o download de um",
+               {
+                  "@referencia_lexico": "mapa",
+                  "#text": "mapa"
+               },
+               "ou",
+               {
+                  "@referencia_lexico": "percurso",
+                  "#text": "percurso"
+               },
+               "offline."
+            ],
+            "PT": []
+         },
+         "atores": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               },
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               {
+                  "@referencia_lexico": "percurso",
+                  "#text": "percurso"
+               },
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               {
+                  "@referencia_lexico": "mapa",
+                  "#text": "mapa"
+               },
+               {
+                  "@referencia_lexico": "paradas",
+                  "#text": "paradas"
+               }
+            ],
+            "PT": []
+         },
+         "recursos": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "aplicativo"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               },
+               "internet"
+            ],
+            "PT": []
+         },
+         "episodios": {
+            "sentenca": [
+               "O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "acessa o",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "aplicativo"
+               },
+               ", clica na opção",
+               {
+                  "@referencia_lexico": "mapa",
+                  "#text": "mapas"
+               },
+               "offlines, visualiza uma lista com vários",
+               {
+                  "@referencia_lexico": "mapa",
+                  "#text": "mapas"
+               },
+               "disponíveis para a região dela e clica no icone de download. O",
+               {
+                  "@referencia_lexico": "mapa",
+                  "#text": "mapa"
+               },
+               "é salvo no aparelho e pode ser acessado mesmo sem internet."
+            ],
+            "PT": []
+         },
+         "excecao": {
+            "sentenca": [
+               "sistema fora do ar",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "sem internet",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "aplicacao web",
+                  "#text": "web"
+               }
+            ],
+            "PT": []
+         }
+      },
+      {
+         "titulo": {
+            "@id": "divulgar o moovit",
+            "#text": "Divulgar O Moovit"
+         },
+         "objetivo": {
+            "sentenca": [
+               "Divulgar o",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               "para amigos ou encontrar o perfil dele nas redes sociais(Twitter, Instagram, Snapchat)"
+            ],
+            "PT": []
+         },
+         "contexto": {
+            "sentenca": [
+               "Local= em qualquer lugar\nTempo= a qualquer tempo\nPré-condição=",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               }
+            ],
+            "PT": []
+         },
+         "atores": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               ";",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               ";"
+            ],
+            "PT": []
+         },
+         "recursos": {
+            "sentenca": {
+               "texto": "Internet\nConta nas redes sociais"
+            },
+            "PT": []
+         },
+         "episodios": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "acessa o menu do",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               "escolhe a opção \"Divulge\" e pode acessar \"Convide seus amigos\" nesta opção é necessário ter conta nas rede social escolhida ou \"Encontre-nos\" para",
+               {
+                  "@referencia_cenario": "visualizar",
+                  "#text": "visualizar"
+               },
+               "o perfil do",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               "."
+            ],
+            "PT": []
+         },
+         "excecao": {
+            "sentenca": {
+               "texto": "sem conexão de internet\nsem conta nas redes sociais para convidar amigos."
+            },
+            "PT": []
+         }
+      },
+      {
+         "titulo": {
+            "@id": "mapear uma linha de onibus dentro do veículo",
+            "#text": "Mapear Uma Linha De ônibus Dentro Do Veículo"
+         },
+         "objetivo": {
+            "sentenca": [
+               "Mostrar o processo de como o usuário pode registrar informações geográficas para atualizar o",
+               {
+                  "@referencia_lexico": "trajeto",
+                  "#text": "trajeto"
+               },
+               "de uma",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               }
+            ],
+            "PT": []
+         },
+         "contexto": {
+            "sentenca": [
+               "Local = Todo o",
+               {
+                  "@referencia_lexico": "trajeto",
+                  "#text": "trajeto"
+               },
+               "daquela",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               "Tempo = Quando o",
+               {
+                  "@referencia_lexico": "veiculo",
+                  "#text": "veiculo"
+               },
+               "sair da primeira",
+               {
+                  "@referencia_lexico": "parada de onibus",
+                  "#text": "parada de onibus"
+               },
+               "até chegar a ultima\nPré-condição = Estar",
+               {
+                  "@referencia_lexico": "a bordo",
+                  "#text": "a bordo"
+               },
+               ", acesso a internet"
+            ],
+            "PT": []
+         },
+         "atores": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               {
+                  "@referencia_lexico": "veiculo",
+                  "#text": "veiculo"
+               }
+            ],
+            "PT": []
+         },
+         "recursos": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "aplicativo"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               },
+               {
+                  "@referencia_lexico": "gps",
+                  "#text": "gps"
+               },
+               "funcionando",
+               {
+                  "@referencia_lexico": "mapa",
+                  "#text": "mapa"
+               }
+            ],
+            "PT": []
+         },
+         "episodios": {
+            "sentenca": [
+               "O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "clica em mapeie sua",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               "Quanto passar por uma",
+               {
+                  "@referencia_lexico": "parada de onibus",
+                  "#text": "parada de onibus"
+               },
+               "clique no botão indicado\nQuando terminar o",
+               {
+                  "@referencia_lexico": "percurso",
+                  "#text": "percurso"
+               },
+               ", selecione a",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               "depois depois a",
+               {
+                  "@referencia_lexico": "direcao",
+                  "#text": "direção"
+               },
+               "Envie os dados"
+            ],
+            "PT": []
+         },
+         "excecao": {
+            "sentenca": [
+               "O onibus quebrar\nO onibus ser obrigado a desviar a",
+               {
+                  "@referencia_lexico": "rota",
+                  "#text": "rota"
+               },
+               ", devido a acidentes ou obras na pista"
+            ],
+            "PT": []
+         }
+      },
+      {
+         "titulo": {
+            "@id": "avaliar o aplicativo.",
+            "#text": "Avaliar O Aplicativo."
+         },
+         "objetivo": {
+            "sentenca": [
+               "O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "deseja avaliar o",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "aplicativo"
+               },
+               "na loja de aplicativos."
+            ],
+            "PT": []
+         },
+         "contexto": {
+            "sentenca": [
+               "O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "deseja realizar um elogio, crítica ou melhoria ao",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "aplicativo"
+               },
+               "na loja virtual de aplicativos (Google Play ou",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "app"
+               },
+               "Store)"
+            ],
+            "PT": []
+         },
+         "atores": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               },
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               "nota\nloja de aplicativos"
+            ],
+            "PT": []
+         },
+         "recursos": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "aplicativo"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               },
+               "internet\ncadastro na loja virtual"
+            ],
+            "PT": []
+         },
+         "episodios": {
+            "sentenca": [
+               "O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "abre o",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               "e clica na opção avalie na loja virtual, ao clicar a loja referente ao sistema nativo abre e são dadas as opções de avaliação: nota e comentários, após preenchimento o usuário confirma."
+            ],
+            "PT": []
+         },
+         "excecao": {
+            "sentenca": [
+               "sistema fora do ar",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "sem internet",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "aplicacao web",
+                  "#text": "web"
+               },
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "sem cadastro na loja virtual"
+            ],
+            "PT": []
+         }
+      },
+      {
+         "titulo": {
+            "@id": "visualizar as ultimas linhas do dia de uma rota",
+            "#text": "Visualizar As Ultimas Linhas Do Dia De Uma Rota"
+         },
+         "objetivo": {
+            "sentenca": [
+               "consultar as ultimas",
+               {
+                  "@referencia_lexico": "linhas",
+                  "#text": "linhas"
+               },
+               "e horários disponiveis para a",
+               {
+                  "@referencia_lexico": "rota",
+                  "#text": "rota"
+               },
+               "solicitada pelo",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               }
+            ],
+            "PT": []
+         },
+         "contexto": {
+            "sentenca": [
+               "Local = em qualquer lugar\nTempo = a qualquer horario;\nPré-condição =  ter definido uma",
+               {
+                  "@referencia_lexico": "rota",
+                  "#text": "rota"
+               },
+               {
+                  "@referencia_lexico": "a bordo",
+                  "#text": "dentro"
+               },
+               "do",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               }
+            ],
+            "PT": []
+         },
+         "atores": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               ",",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               }
+            ],
+            "PT": []
+         },
+         "recursos": {
+            "sentenca": [
+               "internet\nter uma",
+               {
+                  "@referencia_lexico": "rota",
+                  "#text": "rota"
+               },
+               "definida no",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               }
+            ],
+            "PT": []
+         },
+         "episodios": {
+            "sentenca": [
+               "Após o usuário de definir uma",
+               {
+                  "@referencia_lexico": "rota",
+                  "#text": "rota"
+               },
+               ", clicar na seleção \"Sair agora\";\nselecionar a opção \"ultimas",
+               {
+                  "@referencia_lexico": "linhas",
+                  "#text": "linhas"
+               },
+               "para hoje\""
+            ],
+            "PT": []
+         },
+         "excecao": {
+            "sentenca": {
+               "texto": "usuário sem acesso a internet"
+            },
+            "PT": []
+         }
+      },
+      {
+         "titulo": {
+            "@id": "canal de acesso direto ao moovit.",
+            "#text": "Canal De Acesso Direto Ao Moovit."
+         },
+         "objetivo": {
+            "sentenca": [
+               "Informar a opinião, sugestão, bug, crítica e etc direto ao",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               "."
+            ],
+            "PT": []
+         },
+         "contexto": {
+            "sentenca": [
+               "O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               },
+               "deseja submeter uma opinião, dúvida, sugestão, bug, crítica, à equipe de suporte",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               "."
+            ],
+            "PT": []
+         },
+         "atores": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               },
+               "email"
+            ],
+            "PT": []
+         },
+         "recursos": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "aplicativo"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               },
+               "internet\nemail"
+            ],
+            "PT": []
+         },
+         "episodios": {
+            "sentenca": [
+               "O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               },
+               "abre o",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               ", clica na opção comentários, o sistema (Android ou IOS) pergunta qual",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "aplicativo"
+               },
+               "de emails o usuário deseja utilizar, após selecionado o",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               "gera um email padrão com todas as informações do sistema e do",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               ". O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "pode enviar apenas esse log ou adicionar mais informações."
+            ],
+            "PT": []
+         },
+         "excecao": {
+            "sentenca": [
+               "sistema fora do ar",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "sem email",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "aplicacao web",
+                  "#text": "web"
+               }
+            ],
+            "PT": []
+         }
+      },
+      {
+         "titulo": {
+            "@id": "visualizar alerta dos operadores",
+            "#text": "Visualizar Alerta Dos Operadores"
+         },
+         "objetivo": {
+            "sentenca": [
+               "Informar ao",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "um feed de notícias do twitter com informações sobre o",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               "local."
+            ],
+            "PT": []
+         },
+         "contexto": {
+            "sentenca": [
+               "Local = em qualquer lugar\nTempo = a qualquer momento\nPré-condição =",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               },
+               "ou",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "aplicacao web",
+                  "#text": "web"
+               }
+            ],
+            "PT": []
+         },
+         "atores": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               "twitter",
+               {
+                  "@referencia_lexico": "alerta dos operadores",
+                  "#text": "alerta dos operadores"
+               }
+            ],
+            "PT": []
+         },
+         "recursos": {
+            "sentenca": [
+               "internet",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "aplicativo"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               },
+               "ou",
+               {
+                  "@referencia_lexico": "aplicacao web",
+                  "#text": "web"
+               }
+            ],
+            "PT": []
+         },
+         "episodios": {
+            "sentenca": [
+               "O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "acessa o",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               "e clica na opção",
+               {
+                  "@referencia_lexico": "alerta dos operadores",
+                  "#text": "alerta dos operadores"
+               },
+               ", o",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               "mostra uma lista com todos os alertas que foram informados na última semana no twitter."
+            ],
+            "PT": []
+         },
+         "excecao": {
+            "sentenca": [
+               "sistema fora do ar",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "sem internet\noperadores de",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               "sem twitter"
+            ],
+            "PT": []
+         }
+      },
+      {
+         "titulo": {
+            "@id": "receber notificacoes sobre informacoes de transporte",
+            "#text": "Receber Notificações Sobre Informações De Transporte"
+         },
+         "objetivo": {
+            "sentenca": [
+               "Informar o usuário sobre notícias relevantes relacionadas a rotas,",
+               {
+                  "@referencia_lexico": "linhas",
+                  "#text": "linhas"
+               },
+               ", trânsito e obras na cidade"
+            ],
+            "PT": []
+         },
+         "contexto": {
+            "sentenca": {
+               "texto": "O usuário deseja saber os imprevistos que impactam sua locomoção"
+            },
+            "PT": []
+         },
+         "atores": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               {
+                  "@referencia_lexico": "linhas",
+                  "#text": "linhas"
+               },
+               {
+                  "@referencia_lexico": "transito",
+                  "#text": "transito"
+               },
+               {
+                  "@referencia_lexico": "dftrans",
+                  "#text": "dftrans"
+               }
+            ],
+            "PT": []
+         },
+         "recursos": {
+            "sentenca": {
+               "texto": "Acesso a internet"
+            },
+            "PT": []
+         },
+         "episodios": {
+            "sentenca": [
+               "Abra a barra de",
+               {
+                  "@referencia_lexico": "notificacoes",
+                  "#text": "notificações"
+               },
+               "e clique na",
+               {
+                  "@referencia_lexico": "notificacao",
+                  "#text": "notificação"
+               },
+               "O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "clica em central de",
+               {
+                  "@referencia_lexico": "notificacoes",
+                  "#text": "notificações"
+               },
+               "se não receber a",
+               {
+                  "@referencia_lexico": "notificacao",
+                  "#text": "notificação"
+               }
+            ],
+            "PT": []
+         },
+         "excecao": {
+            "sentenca": [
+               "O usuário não ativou as",
+               {
+                  "@referencia_lexico": "notificacoes",
+                  "#text": "notificações"
+               }
+            ],
+            "PT": []
+         }
+      },
+      {
+         "titulo": {
+            "@id": "alterar configuracoes sobre a cidade, regiao",
+            "#text": "Alterar Configurações Sobre A Cidade, Região"
+         },
+         "objetivo": {
+            "sentenca": [
+               "Mostrar o processo de alterar a localidade em que o",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "está"
+            ],
+            "PT": []
+         },
+         "contexto": {
+            "sentenca": [
+               "O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "de uma cidade x viajou para uma cidade y e precisa alterar a sua",
+               {
+                  "@referencia_lexico": "localizacao atual",
+                  "#text": "localização"
+               },
+               "para aparecer dados sobre a cidade atual"
+            ],
+            "PT": []
+         },
+         "atores": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "veiculo",
+                  "#text": "veiculo"
+               },
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               }
+            ],
+            "PT": []
+         },
+         "recursos": {
+            "sentenca": [
+               "Internet",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "aplicação mobile"
+               },
+               "ou",
+               {
+                  "@referencia_lexico": "aplicacao web",
+                  "#text": "aplicação web"
+               }
+            ],
+            "PT": []
+         },
+         "episodios": {
+            "sentenca": [
+               "O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "clica em configurações\nDepois clica em cidade / região\nEscolhe a cidade desejada"
+            ],
+            "PT": []
+         },
+         "excecao": {
+            "sentenca": {
+               "texto": "Cidade atual não estar cadastrada"
+            },
+            "PT": []
+         }
+      },
+      {
+         "titulo": {
+            "@id": "reportar",
+            "#text": "Reportar"
+         },
+         "objetivo": {
+            "sentenca": [
+               "Reportar incidentes, condições,",
+               {
+                  "@referencia_lexico": "lotacao",
+                  "#text": "lotação"
+               },
+               ", itinerários do",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               "."
+            ],
+            "PT": []
+         },
+         "contexto": {
+            "sentenca": [
+               "Local = em qualquer local;\nTempo = a qualquer tempo;\nPré-condição =",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               }
+            ],
+            "PT": []
+         },
+         "atores": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               }
+            ],
+            "PT": []
+         },
+         "recursos": {
+            "sentenca": [
+               "Internet",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "aplicativo"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               },
+               {
+                  "@referencia_lexico": "trajeto",
+                  "#text": "trajeto"
+               },
+               {
+                  "@referencia_lexico": "lotacao",
+                  "#text": "lotação"
+               },
+               "incidente"
+            ],
+            "PT": []
+         },
+         "episodios": {
+            "sentenca": [
+               "O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "reporta um incidente do tipo:",
+               {
+                  "@referencia_cenario": "reportar condicoes do onibus",
+                  "#text": "reportar condicoes do onibus"
+               },
+               "reportar condições de limpeza do",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               "ou linha\nreportar incidente na estação ou linha ou",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               "reportar",
+               {
+                  "@referencia_lexico": "lotacao",
+                  "#text": "lotação"
+               },
+               "do",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               }
+            ],
+            "PT": []
+         },
+         "excecao": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "aplicacao web",
+                  "#text": "web"
+               },
+               "Sistema fora do ar\nsem acesso a internet"
+            ],
+            "PT": []
+         }
+      },
+      {
+         "titulo": {
+            "@id": "viajar de onibus para casa de parentes em goias",
+            "#text": "Viajar De ônibus Para Casa De Parentes Em Goiás"
+         },
+         "objetivo": {
+            "sentenca": [
+               "Planejar",
+               {
+                  "@referencia_lexico": "viagem",
+                  "#text": "viagem"
+               },
+               "que possibilite chegar na casa dos familiares em Goiás"
+            ],
+            "PT": []
+         },
+         "contexto": {
+            "sentenca": [
+               "Local=",
+               {
+                  "@referencia_lexico": "parada",
+                  "#text": "parada"
+               },
+               "de ônibus\nTempo= tempo determinado pelo",
+               {
+                  "@referencia_lexico": "passageiro",
+                  "#text": "passageiro"
+               },
+               "Pré-condição=",
+               {
+                  "@referencia_lexico": "parada",
+                  "#text": "parada"
+               },
+               "e onibus ativos, cobrador e motorista no ônibus, estar com o cartão do DF trans; passagem"
+            ],
+            "PT": []
+         },
+         "atores": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "passageiro",
+                  "#text": "passageiro"
+               },
+               ", motorista,",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               }
+            ],
+            "PT": []
+         },
+         "recursos": {
+            "sentenca": [
+               "Internet,",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "aplicativo"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               },
+               "ou",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "aplicativo"
+               },
+               {
+                  "@referencia_lexico": "aplicacao web",
+                  "#text": "web"
+               },
+               ", dinheiro da passagem, passe estudantil, ônibus"
+            ],
+            "PT": []
+         },
+         "episodios": {
+            "sentenca": [
+               "Conferir se tem",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               "para o",
+               {
+                  "@referencia_lexico": "destino",
+                  "#text": "destino"
+               },
+               "em Goiás\nChegar na",
+               {
+                  "@referencia_lexico": "parada",
+                  "#text": "parada"
+               },
+               "desejada\nPesquisar horários e",
+               {
+                  "@referencia_lexico": "linhas",
+                  "#text": "linhas"
+               },
+               "Planejar",
+               {
+                  "@referencia_lexico": "viagem",
+                  "#text": "viagem"
+               },
+               "Entrar no ônibus desejado\nPagar a passagem\nAcompanhar o",
+               {
+                  "@referencia_lexico": "trajeto",
+                  "#text": "trajeto"
+               },
+               "pelo",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "aplicativo"
+               },
+               "Chegar na",
+               {
+                  "@referencia_lexico": "parada",
+                  "#text": "parada"
+               },
+               "mais próxima do",
+               {
+                  "@referencia_lexico": "destino",
+                  "#text": "destino"
+               },
+               "desejado"
+            ],
+            "PT": []
+         },
+         "excecao": {
+            "sentenca": [
+               "Greve de ônibus\nÔnibus quebrado\nÔnibus não chegar no horário determinado no",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               }
+            ],
+            "PT": []
+         }
+      },
+      {
+         "titulo": {
+            "@id": "voltar para casa de metro",
+            "#text": "Voltar Para Casa De Metrô"
+         },
+         "objetivo": {
+            "sentenca": {
+               "texto": "Chegar em casa"
+            },
+            "PT": []
+         },
+         "contexto": {
+            "sentenca": [
+               "Local=",
+               {
+                  "@referencia_lexico": "estacao",
+                  "#text": "estação"
+               },
+               "de metrô\nTempo= final do dia\nPré-condição=",
+               {
+                  "@referencia_lexico": "estacao",
+                  "#text": "estação"
+               },
+               "e catraca ativas, cobrador na",
+               {
+                  "@referencia_lexico": "estacao",
+                  "#text": "estação"
+               },
+               ", estar com o cartão do DF trans"
+            ],
+            "PT": []
+         },
+         "atores": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "passageiro",
+                  "#text": "passageiro"
+               },
+               ", cobrador, motorista,",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               }
+            ],
+            "PT": []
+         },
+         "recursos": {
+            "sentenca": [
+               "Internet,",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "aplicativo"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               },
+               ", dinheiro da passagem; passe estudantil, metrô"
+            ],
+            "PT": []
+         },
+         "episodios": {
+            "sentenca": [
+               "Pesquisar horários e",
+               {
+                  "@referencia_lexico": "linhas",
+                  "#text": "linhas"
+               },
+               "Chegar na",
+               {
+                  "@referencia_lexico": "estacao",
+                  "#text": "estação"
+               },
+               "desejada\nPassar pela catraca\nEmbarcar no metrô\nChegar em casa"
+            ],
+            "PT": []
+         },
+         "excecao": {
+            "sentenca": {
+               "texto": "Greve de metrô\nMetrô quebrado\nMetrô se atrasar"
+            },
+            "PT": []
+         }
+      },
+      {
+         "titulo": {
+            "@id": "ir para o clube de bicicleta",
+            "#text": "Ir Para O Clube De Bicicleta"
+         },
+         "objetivo": {
+            "sentenca": {
+               "texto": "Chegar no clube de bicicleta"
+            },
+            "PT": []
+         },
+         "contexto": {
+            "sentenca": [
+               "Local= local de",
+               {
+                  "@referencia_lexico": "partida",
+                  "#text": "partida"
+               },
+               "definido pelo usuário do",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "app"
+               },
+               "Tempo= tempo determinado pelo usuário do",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "app"
+               },
+               "Pré-condição= Pneu cheio"
+            ],
+            "PT": []
+         },
+         "atores": {
+            "sentenca": [
+               "Usuário do",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "app"
+               },
+               ",",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               }
+            ],
+            "PT": []
+         },
+         "recursos": {
+            "sentenca": [
+               "Internet,",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "aplicativo"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               },
+               "ou",
+               {
+                  "@referencia_lexico": "aplicacao web",
+                  "#text": "web"
+               },
+               ", bicicleta"
+            ],
+            "PT": []
+         },
+         "episodios": {
+            "sentenca": [
+               "Dar início do",
+               {
+                  "@referencia_lexico": "trajeto",
+                  "#text": "trajeto"
+               },
+               "de onde estiver\nPesquisar trajetos\nPlanejar",
+               {
+                  "@referencia_lexico": "viagem",
+                  "#text": "viagem"
+               },
+               "Pedalar em",
+               {
+                  "@referencia_lexico": "direcao",
+                  "#text": "direção"
+               },
+               "ao",
+               {
+                  "@referencia_lexico": "destino",
+                  "#text": "destino"
+               },
+               "definido\nAcompanhar o",
+               {
+                  "@referencia_lexico": "trajeto",
+                  "#text": "trajeto"
+               },
+               "pelo celular\nChegar no",
+               {
+                  "@referencia_lexico": "destino",
+                  "#text": "destino"
+               },
+               "desejado"
+            ],
+            "PT": []
+         },
+         "excecao": {
+            "sentenca": {
+               "texto": "Tempestades fortes\nBicicleta quebrar\nPneu furar"
+            },
+            "PT": []
+         }
+      },
+      {
+         "titulo": {
+            "@id": "visualizar",
+            "#text": "Visualizar"
+         },
+         "objetivo": {
+            "sentenca": [
+               "Realizar a visualização de:",
+               {
+                  "@referencia_lexico": "alerta dos operadores",
+                  "#text": "alerta dos operadores"
+               },
+               ";\nultimas linas do dia;",
+               {
+                  "@referencia_lexico": "mapa",
+                  "#text": "mapa"
+               },
+               "off-line;\nestações do metrô;\ntodas as",
+               {
+                  "@referencia_lexico": "linhas",
+                  "#text": "linhas"
+               },
+               "de uma",
+               {
+                  "@referencia_lexico": "estacao",
+                  "#text": "estação"
+               },
+               ";"
+            ],
+            "PT": []
+         },
+         "contexto": {
+            "sentenca": [
+               "Local = em qualquer lugar\nTemplo = a qualquer momento;\nPré-condição =",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               },
+               "ou",
+               {
+                  "@referencia_lexico": "aplicacao web",
+                  "#text": "web"
+               }
+            ],
+            "PT": []
+         },
+         "atores": {
+            "sentenca": [
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               ";",
+               {
+                  "@referencia_lexico": "linha",
+                  "#text": "linha"
+               },
+               ";",
+               {
+                  "@referencia_lexico": "estacao",
+                  "#text": "estação"
+               },
+               ";",
+               {
+                  "@referencia_lexico": "transporte",
+                  "#text": "transporte"
+               },
+               ";",
+               {
+                  "@referencia_lexico": "moovit",
+                  "#text": "moovit"
+               },
+               ";",
+               {
+                  "@referencia_lexico": "alerta dos operadores",
+                  "#text": "alerta dos operadores"
+               },
+               ";"
+            ],
+            "PT": []
+         },
+         "recursos": {
+            "sentenca": [
+               "Internet;",
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "aplicativo"
+               },
+               {
+                  "@referencia_lexico": "aplicacao mobile",
+                  "#text": "mobile"
+               },
+               "ou",
+               {
+                  "@referencia_lexico": "aplicacao web",
+                  "#text": "web"
+               },
+               ";",
+               {
+                  "@referencia_lexico": "localizacao atual",
+                  "#text": "localização"
+               },
+               ";",
+               {
+                  "@referencia_lexico": "grade horaria",
+                  "#text": "grade horária"
+               }
+            ],
+            "PT": []
+         },
+         "episodios": {
+            "sentenca": [
+               "O",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "pode visualizar:",
+               {
+                  "@referencia_cenario": "visualizar alerta dos operadores",
+                  "#text": "visualizar alerta dos operadores"
+               },
+               {
+                  "@referencia_cenario": "visualizar as ultimas linhas do dia de uma rota",
+                  "#text": "visualizar as ultimas linhas do dia de uma rota"
+               },
+               {
+                  "@referencia_cenario": "visualizar mapa offline",
+                  "#text": "visualizar mapa offline"
+               },
+               {
+                  "@referencia_cenario": "visualizar todas as estacoes do metro",
+                  "#text": "visualizar todas as estações do metrô"
+               },
+               {
+                  "@referencia_cenario": "visualizar todas as linhas de uma estacao",
+                  "#text": "visualizar todas as linhas de uma estação"
+               }
+            ],
+            "PT": []
+         },
+         "excecao": {
+            "sentenca": [
+               "sistema fora do ar;",
+               {
+                  "@referencia_lexico": "usuario",
+                  "#text": "usuario"
+               },
+               "sem internet;"
+            ],
+            "PT": []
+         }
+      }
+   ],
+   "lexico": [
+      {
+         "nome_simbolo": {
+            "@id": "a bordo",
+            "texto": "A Bordo"
+         },
+         "sinonimos": {
+            "sinonimo": "dentro"
+         },
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Periodo em que o",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "esta dentro do",
+                  {
+                     "@referencia_lexico": "meio de transporte",
+                     "#text": "meio de transporte"
+                  }
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Informa a aplicaçao de que o",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "esta dentro do",
+                  {
+                     "@referencia_lexico": "transporte",
+                     "#text": "transporte"
+                  },
+                  "."
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "alerta dos operadores",
+            "texto": "Alerta Dos Operadores"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Disponibilizados pela as operadoras para os usuarios. Sao avisos relacionados ao",
+                  {
+                     "@referencia_lexico": "transporte",
+                     "#text": "transporte"
+                  },
+                  "publico."
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Deixa o",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "informado sobre as condições do",
+                  {
+                     "@referencia_lexico": "transporte",
+                     "#text": "transporte"
+                  },
+                  ", estaçoes e",
+                  {
+                     "@referencia_lexico": "linhas",
+                     "#text": "linhas"
+                  },
+                  ". O",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "pode optar por outro plano de viajem dependendo do aviso."
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "avaliar motorista",
+            "texto": "Avaliar Motorista"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Realizado pelo",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  ". O",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "avalia as habilidades de quem conduzir o",
+                  {
+                     "@referencia_lexico": "transporte",
+                     "#text": "transporte"
+                  },
+                  "publico durante ou após a",
+                  {
+                     "@referencia_lexico": "viagem",
+                     "#text": "viagem"
+                  },
+                  "."
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "O",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "é capaz de avaliar o motorista. O motorista é avaliado pela suas habilidades na conduçao do",
+                  {
+                     "@referencia_lexico": "veiculo",
+                     "#text": "veiculo"
+                  },
+                  "."
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "avaliacao de usuarios",
+            "texto": "Avaliação De Usuários"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Feedback sobre as condições de",
+                  {
+                     "@referencia_lexico": "transporte",
+                     "#text": "transporte"
+                  },
+                  "de determinada",
+                  {
+                     "@referencia_lexico": "linha",
+                     "#text": "linha"
+                  },
+                  "(reportar limpeza, lotaçao, reportar incidente, reportar temperatura...)."
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Informar a transportadora alguma condição específica no",
+                  {
+                     "@referencia_lexico": "meio de transporte",
+                     "#text": "meio de transporte"
+                  }
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "bicicletario",
+            "texto": "Bicicletário"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": "Lugar próprio para estacionar ou guardar bicicletas.",
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "O",
+                  {
+                     "@referencia_lexico": "plano de viagem",
+                     "#text": "plano de viagem"
+                  },
+                  "deve disponibilizar informaçoes sobre bicicletários para usuarios; O usuário pode procurar locais de bicicletarios no",
+                  {
+                     "@referencia_lexico": "aplicacao mobile",
+                     "#text": "aplicativo"
+                  },
+                  ";"
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "ciclovia",
+            "texto": "Ciclovia"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": "Pista destinada exclusivamente à circulação de bicicletas.",
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "O",
+                  {
+                     "@referencia_lexico": "plano de viagem",
+                     "#text": "plano de viagem"
+                  },
+                  "disponibiliza rotas em ciclovias para o usuário  de bicicletas;"
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "comunidade",
+            "texto": "Comunidade"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Grupo de usuários que vive num dado lugar ou região, ligados pelo uso do",
+                  {
+                     "@referencia_lexico": "aplicacao mobile",
+                     "#text": "aplicativo"
+                  }
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Identificados como mooviters. São usuários com cadastro no",
+                  {
+                     "@referencia_lexico": "aplicacao mobile",
+                     "#text": "aplicativo"
+                  },
+                  ". São capazes de",
+                  {
+                     "@referencia_lexico": "avaliar motorista",
+                     "#text": "avaliar motorista"
+                  },
+                  ",",
+                  {
+                     "@referencia_lexico": "avaliar viagem",
+                     "#text": "avaliar viagem"
+                  },
+                  ",",
+                  {
+                     "@referencia_lexico": "compartilhar",
+                     "#text": "compartilhar"
+                  },
+                  "."
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "desembarcar",
+            "texto": "Desembarcar"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Sair de um",
+                  {
+                     "@referencia_lexico": "meio de transporte",
+                     "#text": "meio de transporte"
+                  }
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Instrução dada ao usuário para ele completar a",
+                  {
+                     "@referencia_lexico": "rota",
+                     "#text": "rota"
+                  },
+                  "ou alternar entre veículos durante a",
+                  {
+                     "@referencia_lexico": "viagem",
+                     "#text": "viagem"
+                  },
+                  "."
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "destino",
+            "texto": "Destino"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  {
+                     "@referencia_lexico": "localizacao atual",
+                     "#text": "localização"
+                  },
+                  "escolhida pelo",
+                  {
+                     "@referencia_lexico": "passageiro",
+                     "#text": "passageiro"
+                  },
+                  "na qual ele tem o objetivo de chegar."
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "\"Ao sair do local de",
+                  {
+                     "@referencia_lexico": "partida",
+                     "#text": "partida"
+                  },
+                  "e completar a",
+                  {
+                     "@referencia_lexico": "rota",
+                     "#text": "rota"
+                  },
+                  "traçada, o usuário chega ou destino final.\nO usuário define o destino antes do começo da",
+                  {
+                     "@referencia_lexico": "viagem",
+                     "#text": "viagem"
+                  },
+                  ".\""
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "avaliar viagem",
+            "texto": "Avaliar Viagem"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Realizado pelo usuário. Acontece pós o",
+                  {
+                     "@referencia_lexico": "passageiro",
+                     "#text": "passageiro"
+                  },
+                  "chegar ao seu",
+                  {
+                     "@referencia_lexico": "destino",
+                     "#text": "destino"
+                  },
+                  ".",
+                  {
+                     "@referencia_lexico": "passageiro",
+                     "#text": "passageiro"
+                  },
+                  "estima a qualidade do",
+                  {
+                     "@referencia_lexico": "trajeto",
+                     "#text": "trajeto"
+                  },
+                  "."
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Ao chegar ao",
+                  {
+                     "@referencia_lexico": "destino",
+                     "#text": "destino"
+                  },
+                  ", o",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "é capaz de avaliar a qualidade da",
+                  {
+                     "@referencia_lexico": "viagem",
+                     "#text": "viagem"
+                  },
+                  "."
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "chegada",
+            "texto": "Chegada"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Ocorre quando um",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "chega a um lugar/",
+                  {
+                     "@referencia_lexico": "destino",
+                     "#text": "destino"
+                  },
+                  "/",
+                  {
+                     "@referencia_lexico": "endereco",
+                     "#text": "endereço"
+                  },
+                  "/",
+                  {
+                     "@referencia_lexico": "parada",
+                     "#text": "parada"
+                  }
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Usuário define",
+                  {
+                     "@referencia_lexico": "horario de chegada",
+                     "#text": "horario de chegada"
+                  },
+                  ".",
+                  {
+                     "@referencia_lexico": "plano de viagem",
+                     "#text": "plano de viagem"
+                  },
+                  "informa",
+                  {
+                     "@referencia_lexico": "horario de chegada",
+                     "#text": "horario de chegada"
+                  },
+                  "a um lugar/",
+                  {
+                     "@referencia_lexico": "destino",
+                     "#text": "destino"
+                  },
+                  "/",
+                  {
+                     "@referencia_lexico": "endereco",
+                     "#text": "endereço"
+                  },
+                  "/",
+                  {
+                     "@referencia_lexico": "parada",
+                     "#text": "parada"
+                  },
+                  "."
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "compartilhar",
+            "texto": "Compartilhar"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Dividir informações com outras pessoas",
+                  {
+                     "@referencia_lexico": "a bordo",
+                     "#text": "dentro"
+                  },
+                  "ou fora do",
+                  {
+                     "@referencia_lexico": "aplicacao mobile",
+                     "#text": "aplicativo"
+                  },
+                  "."
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Dar uma oportunidade ao",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "de compartilhar sua",
+                  {
+                     "@referencia_lexico": "rota",
+                     "#text": "rota"
+                  },
+                  ". Compartilhar o",
+                  {
+                     "@referencia_lexico": "aplicacao mobile",
+                     "#text": "aplicativo"
+                  },
+                  "com outras pessoas."
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "direcao",
+            "texto": "Direção"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Sentido que o usuário deseja ir. Sentido em que o",
+                  {
+                     "@referencia_lexico": "percurso",
+                     "#text": "percurso"
+                  },
+                  "/",
+                  {
+                     "@referencia_lexico": "trajeto",
+                     "#text": "trajeto"
+                  },
+                  "vai ser seguido"
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Direção e definida pelo usuário ao planejar uma",
+                  {
+                     "@referencia_lexico": "viagem",
+                     "#text": "viagem"
+                  },
+                  ". Encontrada no",
+                  {
+                     "@referencia_lexico": "plano de viagem",
+                     "#text": "plano de viagem"
+                  },
+                  ";\nDeixa o usuário ciente para onde aquele onibus está indo"
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "endereco",
+            "texto": "Endereço"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Conjunto de dados (nome de rua, número de casa, prédio ou terreno etc.) que tornam possível a",
+                  {
+                     "@referencia_lexico": "localizacao atual",
+                     "#text": "localização"
+                  },
+                  "de um imóvel e/ou lugar"
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "O usuário pode definir um endereço para a",
+                  {
+                     "@referencia_lexico": "origem",
+                     "#text": "origem"
+                  },
+                  "e/ou para o",
+                  {
+                     "@referencia_lexico": "destino",
+                     "#text": "destino"
+                  },
+                  "; Endereço é necessário pra o",
+                  {
+                     "@referencia_lexico": "plano de viagem",
+                     "#text": "plano de viagem"
+                  },
+                  "."
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "estacao",
+            "texto": "Estação"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  {
+                     "@referencia_lexico": "parada",
+                     "#text": "ponto"
+                  },
+                  "de",
+                  {
+                     "@referencia_lexico": "parada",
+                     "#text": "parada"
+                  },
+                  "dos meios de",
+                  {
+                     "@referencia_lexico": "transporte",
+                     "#text": "transporte"
+                  },
+                  "de passageiros/usuários.",
+                  {
+                     "@referencia_lexico": "ponto de partida",
+                     "#text": "ponto de partida"
+                  },
+                  "de",
+                  {
+                     "@referencia_lexico": "transporte",
+                     "#text": "transportes"
+                  },
+                  "ou passageiros/usuários"
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Usuário pode escolher uma estação de ônibus ou metro; O plano de viajem pode sugerir uma estaçao como",
+                  {
+                     "@referencia_lexico": "destino",
+                     "#text": "destino"
+                  },
+                  "ou",
+                  {
+                     "@referencia_lexico": "ponto de partida",
+                     "#text": "ponto de partida"
+                  }
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "favoritos",
+            "texto": "Favoritos"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": "Trajetos mais usados definidos pelo usuário para facilitar a pesquisa de rotas; Definido pelo usuário.",
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Quando a",
+                  {
+                     "@referencia_lexico": "rota",
+                     "#text": "rota"
+                  },
+                  "/",
+                  {
+                     "@referencia_lexico": "trajeto",
+                     "#text": "trajeto"
+                  },
+                  "e definida pelo usuário como favorita ela fica salva na tela principal."
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "fora de servico",
+            "texto": "Fora De Serviço"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Quando um",
+                  {
+                     "@referencia_lexico": "transporte",
+                     "#text": "transporte"
+                  },
+                  "está impossibilitado de rodar"
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "É avisado através do",
+                  {
+                     "@referencia_lexico": "alerta dos operadores",
+                     "#text": "alerta dos operadores"
+                  },
+                  ". Deixa a",
+                  {
+                     "@referencia_lexico": "linha",
+                     "#text": "linha"
+                  },
+                  "indisponível para uso."
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "gps",
+            "texto": "Gps"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "O GPS é um sistema de navegação por satélite a partir de um dispositivo móvel, que envia informações sobre a posição do",
+                  {
+                     "@referencia_lexico": "transporte",
+                     "#text": "transporte"
+                  },
+                  "/",
+                  {
+                     "@referencia_lexico": "passageiro",
+                     "#text": "passageiro"
+                  },
+                  "ou usuário em qualquer horário"
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Fornece informações refentes a",
+                  {
+                     "@referencia_lexico": "localizacao em tempo real",
+                     "#text": "localização em tempo real"
+                  },
+                  "do usuário, que permite acesso a diversas funcionalidades no",
+                  {
+                     "@referencia_lexico": "moovit",
+                     "#text": "moovit"
+                  },
+                  "."
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "grade horaria",
+            "texto": "Grade Horária"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Lista todos os horários de",
+                  {
+                     "@referencia_lexico": "partida",
+                     "#text": "partida"
+                  },
+                  "e horários de",
+                  {
+                     "@referencia_lexico": "chegada",
+                     "#text": "chegada"
+                  },
+                  "do",
+                  {
+                     "@referencia_lexico": "transporte",
+                     "#text": "transporte"
+                  },
+                  ". Estimados por",
+                  {
+                     "@referencia_lexico": "gps",
+                     "#text": "gps"
+                  }
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Encontrada no",
+                  {
+                     "@referencia_lexico": "plano de viagem",
+                     "#text": "plano de viagem"
+                  },
+                  ". Presente no menu de",
+                  {
+                     "@referencia_lexico": "linhas",
+                     "#text": "linhas"
+                  },
+                  "de metro/trem e",
+                  {
+                     "@referencia_lexico": "linhas",
+                     "#text": "linhas"
+                  },
+                  "de ônibus."
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "horario de chegada",
+            "texto": "Horario De Chegada"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Horário previsto para a",
+                  {
+                     "@referencia_lexico": "chegada",
+                     "#text": "chegada"
+                  },
+                  "ao",
+                  {
+                     "@referencia_lexico": "destino",
+                     "#text": "destino"
+                  }
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Definida pelo usuário/",
+                  {
+                     "@referencia_lexico": "passageiro",
+                     "#text": "passageiro"
+                  },
+                  "o horario de",
+                  {
+                     "@referencia_lexico": "chegada",
+                     "#text": "chegada"
+                  },
+                  "ao",
+                  {
+                     "@referencia_lexico": "destino",
+                     "#text": "destino"
+                  },
+                  "escolhido. \nDado como estimativa nas rotas."
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "horario de partida",
+            "texto": "Horario De Partida"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Horário previsto para sair do",
+                  {
+                     "@referencia_lexico": "parada",
+                     "#text": "ponto"
+                  },
+                  "inicial ao",
+                  {
+                     "@referencia_lexico": "destino",
+                     "#text": "destino"
+                  },
+                  ";"
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Utilizado pelo",
+                  {
+                     "@referencia_lexico": "gps",
+                     "#text": "gps"
+                  },
+                  "para calcular o",
+                  {
+                     "@referencia_lexico": "horario de chegada",
+                     "#text": "horario de chegada"
+                  },
+                  "e tempo que falta para a",
+                  {
+                     "@referencia_lexico": "chegada",
+                     "#text": "chegada"
+                  },
+                  "do",
+                  {
+                     "@referencia_lexico": "meio de transporte",
+                     "#text": "meio de transporte"
+                  },
+                  "a",
+                  {
+                     "@referencia_lexico": "parada",
+                     "#text": "parada"
+                  },
+                  "inicial"
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "horario de operacao",
+            "texto": "Horario De Operação"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Horário que uma",
+                  {
+                     "@referencia_lexico": "linha",
+                     "#text": "linha"
+                  },
+                  "está ativa em determinada",
+                  {
+                     "@referencia_lexico": "rota",
+                     "#text": "rota"
+                  },
+                  "."
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Disponibilidade da",
+                  {
+                     "@referencia_lexico": "linha",
+                     "#text": "linha"
+                  },
+                  ". Calculo de",
+                  {
+                     "@referencia_lexico": "horario de partida",
+                     "#text": "horario de partida"
+                  },
+                  "e",
+                  {
+                     "@referencia_lexico": "horario de chegada",
+                     "#text": "horario de chegada"
+                  },
+                  "."
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "horarios de pico",
+            "texto": "Horários De Pico"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Horário do dia em cidades com tráfego cheio e congestionado nas ruas e estradas, além do",
+                  {
+                     "@referencia_lexico": "transporte público",
+                     "#text": "transporte público"
+                  },
+                  ", que geralmente lota nestes momentos."
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "pode saber os horário de pico no",
+                  {
+                     "@referencia_lexico": "transporte",
+                     "#text": "transporte"
+                  },
+                  "e nas rotas escolhidas"
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "linha",
+            "texto": "Linha"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": "Caracterizada ou nao por um serie de numeros onde e possivel identificar as rotas/trajetos que a mesma realiza",
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Podem ser",
+                  {
+                     "@referencia_lexico": "linhas",
+                     "#text": "linhas"
+                  },
+                  "de onibus e",
+                  {
+                     "@referencia_lexico": "linhas",
+                     "#text": "linhas"
+                  },
+                  "de metro. Podem ser classificada como favorita pelo",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  ". Sugeridas no",
+                  {
+                     "@referencia_lexico": "plano de viagem",
+                     "#text": "plano de viagem"
+                  }
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "linha de metro e ou trem",
+            "texto": "Linha De Metro E Ou Trem"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": "Código/nome que identifica as rotas/trajetos do metro/trem.",
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Definida após escolher o",
+                  {
+                     "@referencia_lexico": "ponto de partida",
+                     "#text": "ponto de partida"
+                  },
+                  "e",
+                  {
+                     "@referencia_lexico": "destino",
+                     "#text": "destino"
+                  },
+                  ". Informada no",
+                  {
+                     "@referencia_lexico": "plano de viagem",
+                     "#text": "plano de viagem"
+                  }
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "linha de onibus",
+            "texto": "Linha De Onibus"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": "Código que identifica as rotas/trajetos dos onibus",
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Definida após escolher o",
+                  {
+                     "@referencia_lexico": "ponto de partida",
+                     "#text": "ponto de partida"
+                  },
+                  "e",
+                  {
+                     "@referencia_lexico": "destino",
+                     "#text": "destino"
+                  },
+                  ". Informada no",
+                  {
+                     "@referencia_lexico": "plano de viagem",
+                     "#text": "plano de viagem"
+                  }
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "linhas",
+            "texto": "Linhas"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "plural de",
+                  {
+                     "@referencia_lexico": "linha",
+                     "#text": "linha"
+                  }
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "impacta no",
+                  {
+                     "@referencia_lexico": "trajeto",
+                     "#text": "trajeto"
+                  },
+                  "que o",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "vai ter"
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "linhas ativas",
+            "texto": "Linhas Ativas"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Todas as",
+                  {
+                     "@referencia_lexico": "linhas",
+                     "#text": "linhas"
+                  },
+                  "de onibus/",
+                  {
+                     "@referencia_lexico": "linhas",
+                     "#text": "linhas"
+                  },
+                  "de metro e ou trem que estão disponiveis aos usuarios/",
+                  {
+                     "@referencia_lexico": "comunidade",
+                     "#text": "comunidade"
+                  },
+                  "/passageiros"
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Disponivel como informação das",
+                  {
+                     "@referencia_lexico": "linhas",
+                     "#text": "linhas"
+                  },
+                  "de metro e ou trem,",
+                  {
+                     "@referencia_lexico": "linhas",
+                     "#text": "linhas"
+                  },
+                  "de onibus. Serve como informação para o",
+                  {
+                     "@referencia_lexico": "plano de viagem",
+                     "#text": "plano de viagem"
+                  }
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "localizacao atual",
+            "texto": "Localização Atual"
+         },
+         "sinonimos": {
+            "sinonimo": "localização"
+         },
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Local em que se situa uma pessoa/",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "ou a",
+                  {
+                     "@referencia_lexico": "origem",
+                     "#text": "origem"
+                  },
+                  "deste."
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "\"Localização permite definir o local de",
+                  {
+                     "@referencia_lexico": "partida",
+                     "#text": "partida"
+                  },
+                  "de um",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "; Ao planejar uma",
+                  {
+                     "@referencia_lexico": "viagem",
+                     "#text": "viagem"
+                  },
+                  "o",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "define o local de",
+                  {
+                     "@referencia_lexico": "partida",
+                     "#text": "partida"
+                  },
+                  ";\nO",
+                  {
+                     "@referencia_lexico": "passageiro",
+                     "#text": "passageiro"
+                  },
+                  "pode definir o local de",
+                  {
+                     "@referencia_lexico": "partida",
+                     "#text": "partida"
+                  },
+                  "manualmente, digitar um",
+                  {
+                     "@referencia_lexico": "endereco",
+                     "#text": "endereço"
+                  },
+                  "específico ou definir no",
+                  {
+                     "@referencia_lexico": "mapa",
+                     "#text": "mapa"
+                  },
+                  ";\"\"\""
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "localizacao em tempo real",
+            "texto": "Localização Em Tempo Real"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Uma informação, exclusiva para o",
+                  {
+                     "@referencia_lexico": "transporte",
+                     "#text": "transporte"
+                  },
+                  "ônibus, que mostra em tempo real onde o veículo se encontra naquele momento"
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": "Essa informação é de grande importância, pois o usuário pode otimizar o seu tempo para sair de casa",
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "lotacao",
+            "texto": "Lotação"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  {
+                     "@referencia_lexico": "meio de transporte",
+                     "#text": "meio de transporte"
+                  },
+                  "em sua capacidade máxima"
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": "Usuário pode reportar uma lotação pela avaliação de usuarios.",
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "mapa",
+            "texto": "Mapa"
+         },
+         "sinonimos": {
+            "sinonimo": "mapas"
+         },
+         "nocao": {
+            "sentenca": {
+               "texto": "Representação gráfica, em escala reduzida, da superfície total ou parcial da Terra, de uma região, cidade, estado etc;",
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "O",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "pode definir sua",
+                  {
+                     "@referencia_lexico": "localizacao atual",
+                     "#text": "localização"
+                  },
+                  "atravez do  mapa;"
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "meio de transporte",
+            "texto": "Meio De Transporte"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Meios utilizados pelos usuarios para se locomover de um",
+                  {
+                     "@referencia_lexico": "ponto de partida",
+                     "#text": "ponto de partida"
+                  },
+                  "a um",
+                  {
+                     "@referencia_lexico": "destino",
+                     "#text": "destino"
+                  }
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Calculo do",
+                  {
+                     "@referencia_lexico": "horario de chegada",
+                     "#text": "horario de chegada"
+                  },
+                  ". Tipos de",
+                  {
+                     "@referencia_lexico": "linha",
+                     "#text": "linha"
+                  },
+                  ",",
+                  {
+                     "@referencia_lexico": "linhas ativas",
+                     "#text": "linhas ativas"
+                  },
+                  "."
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "mobilidade urbana",
+            "texto": "Mobilidade Urbana"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": "É a condição criada para as pessoas poderem se locomover entre as diferentes zonas de uma cidade",
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "O meio em que a aplicação utiliza para levar o usuário de um",
+                  {
+                     "@referencia_lexico": "parada",
+                     "#text": "ponto"
+                  },
+                  "ao outro."
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "mooviter",
+            "texto": "Mooviter"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Voluntários cadastrados que mapeiam informações do",
+                  {
+                     "@referencia_lexico": "transporte público",
+                     "#text": "transporte público"
+                  },
+                  "onde elas não estão facilmente disponíveis."
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "deixar o",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "se sentir pertencente a",
+                  {
+                     "@referencia_lexico": "comunidade",
+                     "#text": "comunidade"
+                  }
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "mudanca de direcao",
+            "texto": "Mudança De Direção"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Mudança no sentido da",
+                  {
+                     "@referencia_lexico": "direcao",
+                     "#text": "direção"
+                  },
+                  "que o usuário deseja ir."
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Muda o sentido do",
+                  {
+                     "@referencia_lexico": "plano de viagem",
+                     "#text": "plano de viagem"
+                  },
+                  "definido."
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "notificacao",
+            "texto": "Notificação"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": "Ato de levar uma informação a alguém",
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Deixa o usuário informado a respeito de possíveis alterações de rotas, mudança de horários e notícias a respeito de",
+                  {
+                     "@referencia_lexico": "transporte",
+                     "#text": "transportes"
+                  }
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "notificacoes",
+            "texto": "Notificações"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Plural de",
+                  {
+                     "@referencia_lexico": "notificacao",
+                     "#text": "notificação"
+                  }
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "alertar o",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "sobre alteracoes no contingente, obras na pista"
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "origem",
+            "texto": "Origem"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  {
+                     "@referencia_lexico": "localizacao atual",
+                     "#text": "localização"
+                  },
+                  "escolhida pelo",
+                  {
+                     "@referencia_lexico": "passageiro",
+                     "#text": "passageiro"
+                  },
+                  "ou fornecida pelo",
+                  {
+                     "@referencia_lexico": "gps",
+                     "#text": "gps"
+                  },
+                  "onde será o início da",
+                  {
+                     "@referencia_lexico": "viagem",
+                     "#text": "viagem"
+                  }
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Usuário escolhe onde será o início da",
+                  {
+                     "@referencia_lexico": "viagem",
+                     "#text": "viagem"
+                  },
+                  "para planejar a",
+                  {
+                     "@referencia_lexico": "rota",
+                     "#text": "rota"
+                  },
+                  "até o",
+                  {
+                     "@referencia_lexico": "destino",
+                     "#text": "destino"
+                  },
+                  "final;"
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "parada",
+            "texto": "Parada"
+         },
+         "sinonimos": {
+            "sinonimo": "ponto"
+         },
+         "nocao": {
+            "sentenca": {
+               "texto": "Lugar em que se para;",
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "pode definir um local de parada; O",
+                  {
+                     "@referencia_lexico": "plano de viagem",
+                     "#text": "plano de viagem"
+                  },
+                  "pode definir/sugerir um local de parada;"
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "parada de onibus",
+            "texto": "Parada De Onibus"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Local de",
+                  {
+                     "@referencia_lexico": "parada",
+                     "#text": "parada"
+                  },
+                  "/",
+                  {
+                     "@referencia_lexico": "paradas",
+                     "#text": "paradas"
+                  },
+                  "dos ônibus onde os passageiros/",
+                  {
+                     "@referencia_lexico": "passageiro",
+                     "#text": "passageiro"
+                  },
+                  "podem embarcar e",
+                  {
+                     "@referencia_lexico": "desembarcar",
+                     "#text": "desembarcar"
+                  }
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": "Facilitar o embarque e o desembarque dos passageiros",
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "paradas",
+            "texto": "Paradas"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "plural de",
+                  {
+                     "@referencia_lexico": "parada",
+                     "#text": "parada"
+                  }
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "local onde o",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "pegara o onibus"
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "partida",
+            "texto": "Partida"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Local de onde o usuário deseja começar a",
+                  {
+                     "@referencia_lexico": "viagem",
+                     "#text": "viagem"
+                  },
+                  "."
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Calculo de horário de",
+                  {
+                     "@referencia_lexico": "chegada",
+                     "#text": "chegada"
+                  },
+                  ", horário de saída. Definição de rotas."
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "passageiro",
+            "texto": "Passageiro"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "que utiliza algum",
+                  {
+                     "@referencia_lexico": "meio de transporte",
+                     "#text": "meio de transporte"
+                  },
+                  "para deslocar-se."
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Utiliza onibus como",
+                  {
+                     "@referencia_lexico": "transporte",
+                     "#text": "transporte"
+                  },
+                  ". Utiliza metro como",
+                  {
+                     "@referencia_lexico": "transporte",
+                     "#text": "transporte"
+                  },
+                  ". Utiliza carro como",
+                  {
+                     "@referencia_lexico": "transporte",
+                     "#text": "transporte"
+                  },
+                  ". Faz parte da",
+                  {
+                     "@referencia_lexico": "comunidade",
+                     "#text": "comunidade"
+                  },
+                  ". Podem",
+                  {
+                     "@referencia_lexico": "avaliar motorista",
+                     "#text": "avaliar motorista"
+                  },
+                  ",",
+                  {
+                     "@referencia_lexico": "avaliar viagem",
+                     "#text": "avaliar viagem"
+                  },
+                  ";"
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "percurso",
+            "texto": "Percurso"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  {
+                     "@referencia_lexico": "trajeto",
+                     "#text": "trajeto"
+                  },
+                  "de",
+                  {
+                     "@referencia_lexico": "viagem",
+                     "#text": "viagem"
+                  },
+                  "ou da",
+                  {
+                     "@referencia_lexico": "linha",
+                     "#text": "linha"
+                  },
+                  "de",
+                  {
+                     "@referencia_lexico": "transporte",
+                     "#text": "transporte"
+                  },
+                  "com informações de sobre início e fim da",
+                  {
+                     "@referencia_lexico": "viagem",
+                     "#text": "viagem"
+                  },
+                  "."
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Determina horário de",
+                  {
+                     "@referencia_lexico": "chegada",
+                     "#text": "chegada"
+                  },
+                  ", horário de saída,",
+                  {
+                     "@referencia_lexico": "paradas",
+                     "#text": "paradas"
+                  },
+                  "de ônibus, avisa quando descer."
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "planejador de viagens",
+            "texto": "Planejador De Viagens"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Página em que o usuário coloca a",
+                  {
+                     "@referencia_lexico": "origem",
+                     "#text": "origem"
+                  },
+                  "e o",
+                  {
+                     "@referencia_lexico": "destino",
+                     "#text": "destino"
+                  },
+                  "e escolhe o",
+                  {
+                     "@referencia_lexico": "meio de transporte",
+                     "#text": "meio de transporte"
+                  },
+                  "e a",
+                  {
+                     "@referencia_lexico": "rota",
+                     "#text": "rota"
+                  },
+                  "."
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Define",
+                  {
+                     "@referencia_lexico": "meio de transporte",
+                     "#text": "meio de transporte"
+                  },
+                  ",",
+                  {
+                     "@referencia_lexico": "rota",
+                     "#text": "rota"
+                  },
+                  ", horário de",
+                  {
+                     "@referencia_lexico": "chegada",
+                     "#text": "chegada"
+                  },
+                  ", horário de saída, quanto tempo até a",
+                  {
+                     "@referencia_lexico": "parada",
+                     "#text": "parada"
+                  },
+                  "e quanto tempo o",
+                  {
+                     "@referencia_lexico": "transporte",
+                     "#text": "transporte"
+                  },
+                  "está longe da",
+                  {
+                     "@referencia_lexico": "parada",
+                     "#text": "parada"
+                  },
+                  ".O usuário pode adicionar a",
+                  {
+                     "@referencia_lexico": "viagem",
+                     "#text": "viagem"
+                  },
+                  "aos",
+                  {
+                     "@referencia_lexico": "favoritos",
+                     "#text": "favoritos"
+                  }
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "plano de viagem",
+            "texto": "Plano De Viagem"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Indicação dos caminhos, ruas, distâncias, horários,",
+                  {
+                     "@referencia_lexico": "linhas",
+                     "#text": "linhas"
+                  },
+                  ",",
+                  {
+                     "@referencia_lexico": "paradas",
+                     "#text": "paradas"
+                  },
+                  "etc., da ida de um",
+                  {
+                     "@referencia_lexico": "parada",
+                     "#text": "ponto"
+                  },
+                  "a outro"
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Plano de",
+                  {
+                     "@referencia_lexico": "viagem",
+                     "#text": "viagem"
+                  },
+                  "informa",
+                  {
+                     "@referencia_lexico": "linha",
+                     "#text": "linha"
+                  },
+                  "; Plano de",
+                  {
+                     "@referencia_lexico": "viagem",
+                     "#text": "viagem"
+                  },
+                  "informa estações, Plano de",
+                  {
+                     "@referencia_lexico": "viagem",
+                     "#text": "viagem"
+                  },
+                  "informa horarios;"
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "plataforma",
+            "texto": "Plataforma"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Local onde o",
+                  {
+                     "@referencia_lexico": "passageiro",
+                     "#text": "passageiro"
+                  },
+                  "pode embarcar no onibus ou metro/trem."
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "A plataforma esta em estaçoes e contem",
+                  {
+                     "@referencia_lexico": "linhas",
+                     "#text": "linhas"
+                  },
+                  "de metro e onibus. Podem ser avaliadas pelos usuarios"
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "ponto de partida",
+            "texto": "Ponto De Partida"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Representa o lugar de onde o usuário irá começar a sua",
+                  {
+                     "@referencia_lexico": "viagem",
+                     "#text": "viagem"
+                  },
+                  ", podendo ser utilizado a",
+                  {
+                     "@referencia_lexico": "localizacao atual",
+                     "#text": "localização atual"
+                  },
+                  ", caixa de pesquisa ou marcando no",
+                  {
+                     "@referencia_lexico": "mapa",
+                     "#text": "mapa"
+                  }
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Permite uma escolhe direta de",
+                  {
+                     "@referencia_lexico": "parada",
+                     "#text": "ponto"
+                  },
+                  "de",
+                  {
+                     "@referencia_lexico": "partida",
+                     "#text": "partida"
+                  },
+                  "em vez de procurar Navegação a partir de uma",
+                  {
+                     "@referencia_lexico": "estacao",
+                     "#text": "estação"
+                  }
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "pontuacao",
+            "texto": "Pontuacao"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": "É somada a partir de tarefas que ao serem realizadas tem valores associados que somam ao resultado total do usuário",
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": "Aumenta o nível de experiência do usuário além de tentar mante-lo engajado.",
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "previsao de chegada",
+            "texto": "Previsão De Chegada"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Baseado em informações da",
+                  {
+                     "@referencia_lexico": "linha",
+                     "#text": "linha"
+                  },
+                  ", coletadas via",
+                  {
+                     "@referencia_lexico": "gps",
+                     "#text": "gps"
+                  },
+                  ", usuários ou orgãos de",
+                  {
+                     "@referencia_lexico": "transporte",
+                     "#text": "transporte"
+                  },
+                  "o sistema entrega uma possível hora de",
+                  {
+                     "@referencia_lexico": "chegada",
+                     "#text": "chegada"
+                  },
+                  "."
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Impacta no tempo de",
+                  {
+                     "@referencia_lexico": "trajeto",
+                     "#text": "trajeto"
+                  },
+                  "e",
+                  {
+                     "@referencia_lexico": "horario de chegada",
+                     "#text": "horario de chegada"
+                  }
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "procurar rotas",
+            "texto": "Procurar Rotas"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Ato de colocar local de",
+                  {
+                     "@referencia_lexico": "partida",
+                     "#text": "partida"
+                  },
+                  "e local de",
+                  {
+                     "@referencia_lexico": "chegada",
+                     "#text": "chegada"
+                  },
+                  "para procurar uma determinada",
+                  {
+                     "@referencia_lexico": "rota",
+                     "#text": "rota"
+                  }
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Selecionar a",
+                  {
+                     "@referencia_lexico": "rota",
+                     "#text": "rota"
+                  },
+                  "no",
+                  {
+                     "@referencia_lexico": "planejador de viagens",
+                     "#text": "planejador de viagens"
+                  }
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "viagem",
+            "texto": "Viagem"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Planejamento feito apos definir um",
+                  {
+                     "@referencia_lexico": "parada",
+                     "#text": "ponto"
+                  },
+                  "de",
+                  {
+                     "@referencia_lexico": "origem",
+                     "#text": "origem"
+                  },
+                  "e um",
+                  {
+                     "@referencia_lexico": "destino",
+                     "#text": "destino"
+                  },
+                  "; Planejado pelo",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "."
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "O",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "pode planejar uma viagem no",
+                  {
+                     "@referencia_lexico": "aplicacao mobile",
+                     "#text": "aplicativo"
+                  },
+                  "a partir de",
+                  {
+                     "@referencia_lexico": "origem",
+                     "#text": "origem"
+                  },
+                  ",",
+                  {
+                     "@referencia_lexico": "destino",
+                     "#text": "destino"
+                  },
+                  ",",
+                  {
+                     "@referencia_lexico": "transporte",
+                     "#text": "transporte"
+                  },
+                  "e horário. Expecificado no",
+                  {
+                     "@referencia_lexico": "plano de viagem",
+                     "#text": "plano de viagem"
+                  }
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "veiculo",
+            "texto": "Veiculo"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": "Qualquer meio usado para transportar ou conduzir pessoas de um lugar para outro. Como metro, onibus, carro e bicicleta",
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "O",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "deve escolher qual veiculo vai usar para realizar a",
+                  {
+                     "@referencia_lexico": "viagem",
+                     "#text": "viagem"
+                  },
+                  "; \nO",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "deve definir veiculo no",
+                  {
+                     "@referencia_lexico": "plano de viagem",
+                     "#text": "plano de viagem"
+                  },
+                  ";"
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "usuario",
+            "texto": "Usuario"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "\"Pessoa que utiliza o",
+                  {
+                     "@referencia_lexico": "moovit",
+                     "#text": "moovit"
+                  },
+                  ";\nQuem faz uso da aplicação",
+                  {
+                     "@referencia_lexico": "moovit",
+                     "#text": "moovit"
+                  },
+                  "para Buscar rotas e Horario de",
+                  {
+                     "@referencia_lexico": "linhas",
+                     "#text": "linhas"
+                  },
+                  ", seja via",
+                  {
+                     "@referencia_lexico": "aplicacao mobile",
+                     "#text": "aplicação mobile"
+                  },
+                  ", ou",
+                  {
+                     "@referencia_lexico": "aplicacao web",
+                     "#text": "web"
+                  },
+                  ".\""
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "\"O usuários pode buscar uma",
+                  {
+                     "@referencia_lexico": "linhas",
+                     "#text": "linhas"
+                  },
+                  "de trasporte especifica;\nO usuários pode buscar por estaçoes;\nO usuários pode definir direçoes.\""
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "transporte público",
+            "texto": "Transporte Público"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  {
+                     "@referencia_lexico": "meio de transporte",
+                     "#text": "meio de transporte"
+                  },
+                  "do qual os passageiros não são proprietários. Usado por toda",
+                  {
+                     "@referencia_lexico": "comunidade",
+                     "#text": "comunidade"
+                  },
+                  ", passageiros, usuarios"
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "tem opção de escolha entre",
+                  {
+                     "@referencia_lexico": "transporte",
+                     "#text": "transporte"
+                  },
+                  "publico no qual engloba onibus e metro, bicicleta, a pé.",
+                  {
+                     "@referencia_lexico": "transporte",
+                     "#text": "transporte"
+                  },
+                  "publico tem grade horaria,",
+                  {
+                     "@referencia_lexico": "linha",
+                     "#text": "linha"
+                  },
+                  "e",
+                  {
+                     "@referencia_lexico": "estacao",
+                     "#text": "estação"
+                  }
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "transporte",
+            "texto": "Transporte"
+         },
+         "sinonimos": {
+            "sinonimo": "transportes"
+         },
+         "nocao": {
+            "sentenca": {
+               "texto": "Veículo que serve para levar ou conduzir pessoas. onibus/metro/trem/carro/bicicleta/",
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Escolhido pelo",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "como uma forma de seguir o",
+                  {
+                     "@referencia_lexico": "plano de viagem",
+                     "#text": "plano de viagem"
+                  },
+                  "e prever o horarrio de",
+                  {
+                     "@referencia_lexico": "chegada",
+                     "#text": "chegada"
+                  },
+                  "e",
+                  {
+                     "@referencia_lexico": "horario de partida",
+                     "#text": "horario de partida"
+                  }
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "trajeto",
+            "texto": "Trajeto"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Espaço que é preciso percorrer para ir de um lugar a outro;",
+                  {
+                     "@referencia_lexico": "rota",
+                     "#text": "rota"
+                  },
+                  ",",
+                  {
+                     "@referencia_lexico": "percurso",
+                     "#text": "percurso"
+                  }
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "O",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "e capaz de traçar um trajeto a partir da",
+                  {
+                     "@referencia_lexico": "localizacao atual",
+                     "#text": "localização"
+                  },
+                  ",",
+                  {
+                     "@referencia_lexico": "origem",
+                     "#text": "origem"
+                  },
+                  "e",
+                  {
+                     "@referencia_lexico": "destino",
+                     "#text": "destino"
+                  },
+                  ". \nO trajeto e disponibilizado no",
+                  {
+                     "@referencia_lexico": "plano de viagem",
+                     "#text": "plano de viagem"
+                  },
+                  "."
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "tracar a rota",
+            "texto": "Traçar A Rota"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Tarefa realizada pelo",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  ". Acontece quando o",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "define uma",
+                  {
+                     "@referencia_lexico": "origem",
+                     "#text": "origem"
+                  },
+                  "e uma",
+                  {
+                     "@referencia_lexico": "destino",
+                     "#text": "destino"
+                  },
+                  ". Define uma",
+                  {
+                     "@referencia_lexico": "rota",
+                     "#text": "rota"
+                  },
+                  ",",
+                  {
+                     "@referencia_lexico": "trajeto",
+                     "#text": "trajeto"
+                  }
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Pode gerar ou nao um",
+                  {
+                     "@referencia_lexico": "plano de viagem",
+                     "#text": "plano de viagem"
+                  },
+                  "."
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "rotas alternativas",
+            "texto": "Rotas Alternativas"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Caminho a seguir para ir de um lugar a outro; itinerário,",
+                  {
+                     "@referencia_lexico": "trajeto",
+                     "#text": "trajeto"
+                  },
+                  "no qual o",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "pode escolher uma ou mais possibilidades pelas quais se pode optar."
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "O",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "pode escolha a melhor",
+                  {
+                     "@referencia_lexico": "rota",
+                     "#text": "rota"
+                  },
+                  "de acordo com o horario,",
+                  {
+                     "@referencia_lexico": "transporte",
+                     "#text": "transporte"
+                  },
+                  "e",
+                  {
+                     "@referencia_lexico": "linha",
+                     "#text": "linha"
+                  }
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "rota",
+            "texto": "Rota"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Um caminho a ser percorrido pelo",
+                  {
+                     "@referencia_lexico": "transporte",
+                     "#text": "transporte"
+                  },
+                  "ou",
+                  {
+                     "@referencia_lexico": "usuario",
+                     "#text": "usuario"
+                  },
+                  "."
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "O usuário pode escolher entre rotas distintas se assim o houver. A rota e definida apos a marcação de uma",
+                  {
+                     "@referencia_lexico": "origem",
+                     "#text": "origem"
+                  },
+                  "e",
+                  {
+                     "@referencia_lexico": "destino",
+                     "#text": "destino"
+                  },
+                  ". Está no",
+                  {
+                     "@referencia_lexico": "plano de viagem",
+                     "#text": "plano de viagem"
+                  }
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "moovit",
+            "texto": "Moovit"
+         },
+         "sinonimos": {
+            "sinonimo": "moovit"
+         },
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Moovit é um",
+                  {
+                     "@referencia_lexico": "aplicacao mobile",
+                     "#text": "aplicativo"
+                  },
+                  "gratuito de",
+                  {
+                     "@referencia_lexico": "mobilidade urbana",
+                     "#text": "mobilidade urbana"
+                  },
+                  "com foco em informações de",
+                  {
+                     "@referencia_lexico": "transporte público",
+                     "#text": "transporte público"
+                  },
+                  "e de navegação, desenvolvido pela start-up israelense Tranzmate."
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Uma grande variedade e quantidade de informações relevantes para a",
+                  {
+                     "@referencia_lexico": "mobilidade urbana",
+                     "#text": "mobilidade urbana"
+                  },
+                  "em",
+                  {
+                     "@referencia_lexico": "transporte",
+                     "#text": "transportes"
+                  },
+                  "públicos."
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "aplicacao web",
+            "texto": "Aplicação Web"
+         },
+         "sinonimos": [
+            "aplicação para notebook",
+            "aplicação para computador",
+            "aplicação desktop",
+            "web"
+         ],
+         "nocao": {
+            "sentenca": {
+               "texto": "Aplicação Otimizada para dispositivos que possua um navegador web, que são utilizados em um desktop.",
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": "Uma experiência otimizada para computadores, oferecendo assim um maior aproveitamento dos recursos proporcionados pela aplicação, melhorando a experiência do usuário especificamente em um Desktop ou notebook.",
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "aplicacao mobile",
+            "texto": "Aplicação Mobile"
+         },
+         "sinonimos": [
+            "aplicativo",
+            "aplicativo mobile",
+            "mobile",
+            "app"
+         ],
+         "nocao": {
+            "sentenca": {
+               "texto": "Aplicação desenvolvida com foco com para usabilidade em um dispositivo portátil.",
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": "Uma experiência otimizada em um dispositivo portátil, oferecendo assim um maior aproveitamento dos recursos proporcionados pela aplicação em um dispositivo móvel, como celular ou tablet.",
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "transito",
+            "texto": "Transito"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": "Fluxo de veículos nas ruas",
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  "Interfere na",
+                  {
+                     "@referencia_lexico": "previsao de chegada",
+                     "#text": "previsão de chegada"
+                  },
+                  "Gerar",
+                  {
+                     "@referencia_lexico": "notificacoes",
+                     "#text": "notificações"
+                  },
+                  "sobre as rotas"
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "dftrans",
+            "texto": "Dftrans"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Órgão público que administra o",
+                  {
+                     "@referencia_lexico": "transporte",
+                     "#text": "transporte"
+                  },
+                  "publico do df"
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": [
+                  {
+                     "@referencia_lexico": "linhas",
+                     "#text": "linhas"
+                  },
+                  "Previsao de",
+                  {
+                     "@referencia_lexico": "chegada",
+                     "#text": "chegada"
+                  },
+                  {
+                     "@referencia_lexico": "horario de chegada",
+                     "#text": "horario de chegada"
+                  },
+                  "horario de saida\nrotas",
+                  {
+                     "@referencia_lexico": "notificacoes",
+                     "#text": "notificações"
+                  }
+               ],
+               "PT": []
+            }
+         }
+      },
+      {
+         "nome_simbolo": {
+            "@id": "operador",
+            "texto": "Operador"
+         },
+         "sinonimos": [],
+         "nocao": {
+            "sentenca": {
+               "texto": [
+                  "Empresas que prestam o serviço;\nAutarquias/secretárias que regulamentam o serviço de",
+                  {
+                     "@referencia_lexico": "transporte",
+                     "#text": "transporte"
+                  },
+                  "plubiclo para a população."
+               ],
+               "PT": []
+            }
+         },
+         "impacto": {
+            "sentenca": {
+               "texto": "Prestação de serviço.\nRegulamentação do serviço.",
+               "PT": []
+            }
+         }
+      }
+   ]
+}
